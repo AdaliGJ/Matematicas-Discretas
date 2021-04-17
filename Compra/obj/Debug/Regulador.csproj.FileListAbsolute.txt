@@ -1,0 +1,28 @@
+C:\Users\adali\source\repos\Compra\Compra\obj\Debug\Regulador.csprojAssemblyReference.cache
+C:\Users\adali\source\repos\Compra\Compra\obj\Debug\Compra.EntidadCompra.resources
+C:\Users\adali\source\repos\Compra\Compra\obj\Debug\Compra.Properties.Resources.resources
+C:\Users\adali\source\repos\Compra\Compra\obj\Debug\Regulador.csproj.GenerateResource.cache
+C:\Users\adali\source\repos\Compra\Compra\obj\Debug\Regulador.csproj.CoreCompileInputs.cache
+C:\Users\adali\source\repos\Compra\Compra\obj\Debug\Compra.exe
+C:\Users\adali\source\repos\Compra\Compra\obj\Debug\Compra.pdb
+C:\Users\adali\source\repos\Compra\Compra\bin\Debug\Compra.exe.config
+C:\Users\adali\source\repos\Compra\Compra\bin\Debug\Compra.exe
+C:\Users\adali\source\repos\Compra\Compra\bin\Debug\Compra.pdb
+C:\Users\adali\source\repos\Compra\Compra\obj\Debug\Compra.Regulador.resources
+C:\Users\adali\source\repos\Compra\Compra\obj\Debug\Compra.Generador.resources
+C:\Users\adali\Desktop\Final Discretas\Compra\bin\Debug\Compra.exe.config
+C:\Users\adali\Desktop\Final Discretas\Compra\bin\Debug\Compra.exe
+C:\Users\adali\Desktop\Final Discretas\Compra\bin\Debug\Compra.pdb
+C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Regulador.csprojAssemblyReference.cache
+C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.EntidadCompra.resources
+C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.Generador.resources
+C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.Properties.Resources.resources
+C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.Regulador.resources
+C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Regulador.csproj.GenerateResource.cache
+C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Regulador.csproj.CoreCompileInputs.cache
+C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.exe
+C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.pdb
+C:\Users\adali\Desktop\Final Discretas\Compra\bin\Debug\Database1.mdf
+C:\Users\adali\Desktop\Final Discretas\Compra\bin\Debug\Database1_log.ldf
+C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.Aprobar.resources
+C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.AprobarVendedor.resources

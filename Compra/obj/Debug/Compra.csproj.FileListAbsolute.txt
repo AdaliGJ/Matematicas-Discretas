@@ -1,0 +1,11 @@
+C:\Users\adali\source\repos\Compra\Compra\bin\Debug\Compra.exe.config
+C:\Users\adali\source\repos\Compra\Compra\bin\Debug\Compra.exe
+C:\Users\adali\source\repos\Compra\Compra\bin\Debug\Compra.pdb
+C:\Users\adali\source\repos\Compra\Compra\obj\Debug\Compra.csprojAssemblyReference.cache
+C:\Users\adali\source\repos\Compra\Compra\obj\Debug\Compra.Properties.Resources.resources
+C:\Users\adali\source\repos\Compra\Compra\obj\Debug\Compra.csproj.GenerateResource.cache
+C:\Users\adali\source\repos\Compra\Compra\obj\Debug\Compra.csproj.CoreCompileInputs.cache
+C:\Users\adali\source\repos\Compra\Compra\obj\Debug\Compra.exe
+C:\Users\adali\source\repos\Compra\Compra\obj\Debug\Compra.pdb
+C:\Users\adali\source\repos\Compra\Compra\obj\Debug\Compra.Menu.resources
+C:\Users\adali\source\repos\Compra\Compra\obj\Debug\Compra.FormComprar.resources
