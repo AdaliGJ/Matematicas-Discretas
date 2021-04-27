@@ -29,383 +29,228 @@ namespace Compra
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AprobarVendedor));
+            System.Windows.Forms.Label label3;
+            System.Windows.Forms.Label label2;
+            System.Windows.Forms.Label label1;
             System.Windows.Forms.Label nombre_EntidadLabel;
-            System.Windows.Forms.Label nITLabel;
-            System.Windows.Forms.Label clave_PúblicaLabel;
-            System.Windows.Forms.Label nacionalidadLabel;
-            System.Windows.Forms.Label fecha_NacimientoLabel;
-            this.database = new Compra.Database();
-            this.vendedores_AprovadosBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.vendedores_AprovadosTableAdapter = new Compra.DatabaseTableAdapters.Vendedores_AprovadosTableAdapter();
-            this.tableAdapterManager = new Compra.DatabaseTableAdapters.TableAdapterManager();
-            this.vendedores_AprovadosBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
-            this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
-            this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
-            this.vendedores_AprovadosBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
-            this.vendedores_AprovadosDataGridView = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nombre_EntidadTextBox = new System.Windows.Forms.TextBox();
-            this.nITTextBox = new System.Windows.Forms.TextBox();
-            this.clave_PúblicaTextBox = new System.Windows.Forms.TextBox();
-            this.nacionalidadTextBox = new System.Windows.Forms.TextBox();
-            this.fecha_NacimientoDateTimePicker = new System.Windows.Forms.DateTimePicker();
+            System.Windows.Forms.Label entidadLabel;
+            System.Windows.Forms.Label label4;
+            this.regresar = new System.Windows.Forms.Button();
+            this.firmar = new System.Windows.Forms.Button();
+            this.firmText = new System.Windows.Forms.TextBox();
+            this.privText = new System.Windows.Forms.TextBox();
+            this.llaveText = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.entText = new System.Windows.Forms.TextBox();
+            this.infoText = new System.Windows.Forms.TextBox();
+            this.expText = new System.Windows.Forms.DateTimePicker();
+            this.publica = new System.Windows.Forms.TextBox();
+            label3 = new System.Windows.Forms.Label();
+            label2 = new System.Windows.Forms.Label();
+            label1 = new System.Windows.Forms.Label();
             nombre_EntidadLabel = new System.Windows.Forms.Label();
-            nITLabel = new System.Windows.Forms.Label();
-            clave_PúblicaLabel = new System.Windows.Forms.Label();
-            nacionalidadLabel = new System.Windows.Forms.Label();
-            fecha_NacimientoLabel = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.database)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.vendedores_AprovadosBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.vendedores_AprovadosBindingNavigator)).BeginInit();
-            this.vendedores_AprovadosBindingNavigator.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.vendedores_AprovadosDataGridView)).BeginInit();
+            entidadLabel = new System.Windows.Forms.Label();
+            label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // database
+            // label3
             // 
-            this.database.DataSetName = "Database";
-            this.database.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            label3.AutoSize = true;
+            label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label3.Location = new System.Drawing.Point(16, 199);
+            label3.Name = "label3";
+            label3.Size = new System.Drawing.Size(168, 17);
+            label3.TabIndex = 56;
+            label3.Text = "Llave Privada Regulador:";
             // 
-            // vendedores_AprovadosBindingSource
+            // label2
             // 
-            this.vendedores_AprovadosBindingSource.DataMember = "Vendedores_Aprovados";
-            this.vendedores_AprovadosBindingSource.DataSource = this.database;
+            label2.AutoSize = true;
+            label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label2.Location = new System.Drawing.Point(36, 137);
+            label2.Name = "label2";
+            label2.Size = new System.Drawing.Size(148, 17);
+            label2.TabIndex = 54;
+            label2.Text = "Llave Pública Entidad:";
             // 
-            // vendedores_AprovadosTableAdapter
+            // label1
             // 
-            this.vendedores_AprovadosTableAdapter.ClearBeforeFill = true;
-            // 
-            // tableAdapterManager
-            // 
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.UpdateOrder = Compra.DatabaseTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
-            this.tableAdapterManager.Vendedores_AprovadosTableAdapter = this.vendedores_AprovadosTableAdapter;
-            // 
-            // vendedores_AprovadosBindingNavigator
-            // 
-            this.vendedores_AprovadosBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
-            this.vendedores_AprovadosBindingNavigator.BindingSource = this.vendedores_AprovadosBindingSource;
-            this.vendedores_AprovadosBindingNavigator.CountItem = this.bindingNavigatorCountItem;
-            this.vendedores_AprovadosBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
-            this.vendedores_AprovadosBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bindingNavigatorMoveFirstItem,
-            this.bindingNavigatorMovePreviousItem,
-            this.bindingNavigatorSeparator,
-            this.bindingNavigatorPositionItem,
-            this.bindingNavigatorCountItem,
-            this.bindingNavigatorSeparator1,
-            this.bindingNavigatorMoveNextItem,
-            this.bindingNavigatorMoveLastItem,
-            this.bindingNavigatorSeparator2,
-            this.bindingNavigatorAddNewItem,
-            this.bindingNavigatorDeleteItem,
-            this.vendedores_AprovadosBindingNavigatorSaveItem});
-            this.vendedores_AprovadosBindingNavigator.Location = new System.Drawing.Point(0, 0);
-            this.vendedores_AprovadosBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
-            this.vendedores_AprovadosBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
-            this.vendedores_AprovadosBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
-            this.vendedores_AprovadosBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
-            this.vendedores_AprovadosBindingNavigator.Name = "vendedores_AprovadosBindingNavigator";
-            this.vendedores_AprovadosBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.vendedores_AprovadosBindingNavigator.Size = new System.Drawing.Size(806, 25);
-            this.vendedores_AprovadosBindingNavigator.TabIndex = 0;
-            this.vendedores_AprovadosBindingNavigator.Text = "bindingNavigator1";
-            // 
-            // bindingNavigatorMoveFirstItem
-            // 
-            this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
-            this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
-            this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorMoveFirstItem.Text = "Mover primero";
-            // 
-            // bindingNavigatorMovePreviousItem
-            // 
-            this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
-            this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
-            this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorMovePreviousItem.Text = "Mover anterior";
-            // 
-            // bindingNavigatorSeparator
-            // 
-            this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 25);
-            // 
-            // bindingNavigatorPositionItem
-            // 
-            this.bindingNavigatorPositionItem.AccessibleName = "Posición";
-            this.bindingNavigatorPositionItem.AutoSize = false;
-            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
-            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 23);
-            this.bindingNavigatorPositionItem.Text = "0";
-            this.bindingNavigatorPositionItem.ToolTipText = "Posición actual";
-            // 
-            // bindingNavigatorCountItem
-            // 
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(37, 22);
-            this.bindingNavigatorCountItem.Text = "de {0}";
-            this.bindingNavigatorCountItem.ToolTipText = "Número total de elementos";
-            // 
-            // bindingNavigatorSeparator1
-            // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 25);
-            // 
-            // bindingNavigatorMoveNextItem
-            // 
-            this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
-            this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
-            this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorMoveNextItem.Text = "Mover siguiente";
-            // 
-            // bindingNavigatorMoveLastItem
-            // 
-            this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
-            this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
-            this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorMoveLastItem.Text = "Mover último";
-            // 
-            // bindingNavigatorSeparator2
-            // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 25);
-            // 
-            // bindingNavigatorAddNewItem
-            // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorAddNewItem.Text = "Agregar nuevo";
-            // 
-            // bindingNavigatorDeleteItem
-            // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorDeleteItem.Text = "Eliminar";
-            // 
-            // vendedores_AprovadosBindingNavigatorSaveItem
-            // 
-            this.vendedores_AprovadosBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.vendedores_AprovadosBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("vendedores_AprovadosBindingNavigatorSaveItem.Image")));
-            this.vendedores_AprovadosBindingNavigatorSaveItem.Name = "vendedores_AprovadosBindingNavigatorSaveItem";
-            this.vendedores_AprovadosBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 22);
-            this.vendedores_AprovadosBindingNavigatorSaveItem.Text = "Guardar datos";
-            this.vendedores_AprovadosBindingNavigatorSaveItem.Click += new System.EventHandler(this.vendedores_AprovadosBindingNavigatorSaveItem_Click);
-            // 
-            // vendedores_AprovadosDataGridView
-            // 
-            this.vendedores_AprovadosDataGridView.AutoGenerateColumns = false;
-            this.vendedores_AprovadosDataGridView.BackgroundColor = System.Drawing.Color.Silver;
-            this.vendedores_AprovadosDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.vendedores_AprovadosDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn1,
-            this.dataGridViewTextBoxColumn2,
-            this.dataGridViewTextBoxColumn3,
-            this.dataGridViewTextBoxColumn4,
-            this.dataGridViewTextBoxColumn5,
-            this.dataGridViewTextBoxColumn6});
-            this.vendedores_AprovadosDataGridView.DataSource = this.vendedores_AprovadosBindingSource;
-            this.vendedores_AprovadosDataGridView.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.vendedores_AprovadosDataGridView.Location = new System.Drawing.Point(90, 303);
-            this.vendedores_AprovadosDataGridView.Name = "vendedores_AprovadosDataGridView";
-            this.vendedores_AprovadosDataGridView.Size = new System.Drawing.Size(632, 135);
-            this.vendedores_AprovadosDataGridView.TabIndex = 1;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "Id";
-            this.dataGridViewTextBoxColumn1.HeaderText = "Id";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "Nombre Entidad";
-            this.dataGridViewTextBoxColumn2.HeaderText = "Nombre Entidad";
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "NIT";
-            this.dataGridViewTextBoxColumn3.HeaderText = "NIT";
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "Clave Pública";
-            this.dataGridViewTextBoxColumn4.HeaderText = "Clave Pública";
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "Nacionalidad";
-            this.dataGridViewTextBoxColumn5.HeaderText = "Nacionalidad";
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            // 
-            // dataGridViewTextBoxColumn6
-            // 
-            this.dataGridViewTextBoxColumn6.DataPropertyName = "Fecha Nacimiento";
-            this.dataGridViewTextBoxColumn6.HeaderText = "Fecha Nacimiento";
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            label1.AutoSize = true;
+            label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label1.Location = new System.Drawing.Point(44, 88);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(140, 17);
+            label1.TabIndex = 51;
+            label1.Text = "Fecha de Expiración:";
             // 
             // nombre_EntidadLabel
             // 
             nombre_EntidadLabel.AutoSize = true;
             nombre_EntidadLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             nombre_EntidadLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            nombre_EntidadLabel.Location = new System.Drawing.Point(87, 79);
+            nombre_EntidadLabel.Location = new System.Drawing.Point(47, 19);
             nombre_EntidadLabel.Name = "nombre_EntidadLabel";
-            nombre_EntidadLabel.Size = new System.Drawing.Size(114, 17);
-            nombre_EntidadLabel.TabIndex = 4;
-            nombre_EntidadLabel.Text = "Nombre Entidad:";
+            nombre_EntidadLabel.Size = new System.Drawing.Size(137, 17);
+            nombre_EntidadLabel.TabIndex = 46;
+            nombre_EntidadLabel.Text = "Información Entidad:";
             // 
-            // nombre_EntidadTextBox
+            // entidadLabel
             // 
-            this.nombre_EntidadTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.vendedores_AprovadosBindingSource, "Nombre Entidad", true));
-            this.nombre_EntidadTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.nombre_EntidadTextBox.Location = new System.Drawing.Point(204, 76);
-            this.nombre_EntidadTextBox.Name = "nombre_EntidadTextBox";
-            this.nombre_EntidadTextBox.Size = new System.Drawing.Size(462, 23);
-            this.nombre_EntidadTextBox.TabIndex = 5;
+            entidadLabel.AutoSize = true;
+            entidadLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            entidadLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            entidadLabel.Location = new System.Drawing.Point(72, 57);
+            entidadLabel.Name = "entidadLabel";
+            entidadLabel.Size = new System.Drawing.Size(112, 17);
+            entidadLabel.TabIndex = 47;
+            entidadLabel.Text = "Tipo de Entidad:";
             // 
-            // nITLabel
+            // label4
             // 
-            nITLabel.AutoSize = true;
-            nITLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            nITLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            nITLabel.Location = new System.Drawing.Point(167, 121);
-            nITLabel.Name = "nITLabel";
-            nITLabel.Size = new System.Drawing.Size(34, 17);
-            nITLabel.TabIndex = 6;
-            nITLabel.Text = "NIT:";
+            label4.AutoSize = true;
+            label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label4.Location = new System.Drawing.Point(16, 265);
+            label4.Name = "label4";
+            label4.Size = new System.Drawing.Size(166, 17);
+            label4.TabIndex = 61;
+            label4.Text = "Llave Pública Regulador:";
             // 
-            // nITTextBox
+            // regresar
             // 
-            this.nITTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.vendedores_AprovadosBindingSource, "NIT", true));
-            this.nITTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.nITTextBox.Location = new System.Drawing.Point(204, 121);
-            this.nITTextBox.Name = "nITTextBox";
-            this.nITTextBox.Size = new System.Drawing.Size(462, 23);
-            this.nITTextBox.TabIndex = 7;
+            this.regresar.BackColor = System.Drawing.Color.Red;
+            this.regresar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(26)))), ((int)(((byte)(100)))));
+            this.regresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.regresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.regresar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.regresar.Location = new System.Drawing.Point(19, 425);
+            this.regresar.Name = "regresar";
+            this.regresar.Size = new System.Drawing.Size(159, 30);
+            this.regresar.TabIndex = 59;
+            this.regresar.Text = "Regresar a Menú";
+            this.regresar.UseVisualStyleBackColor = false;
+            this.regresar.Click += new System.EventHandler(this.regresar_Click);
             // 
-            // clave_PúblicaLabel
+            // firmar
             // 
-            clave_PúblicaLabel.AutoSize = true;
-            clave_PúblicaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            clave_PúblicaLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            clave_PúblicaLabel.Location = new System.Drawing.Point(104, 165);
-            clave_PúblicaLabel.Name = "clave_PúblicaLabel";
-            clave_PúblicaLabel.Size = new System.Drawing.Size(97, 17);
-            clave_PúblicaLabel.TabIndex = 8;
-            clave_PúblicaLabel.Text = "Clave Pública:";
+            this.firmar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(26)))), ((int)(((byte)(100)))));
+            this.firmar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(26)))), ((int)(((byte)(100)))));
+            this.firmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.firmar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.firmar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.firmar.Location = new System.Drawing.Point(656, 313);
+            this.firmar.Name = "firmar";
+            this.firmar.Size = new System.Drawing.Size(114, 30);
+            this.firmar.TabIndex = 58;
+            this.firmar.Text = "Firmar Datos";
+            this.firmar.UseVisualStyleBackColor = false;
+            this.firmar.Click += new System.EventHandler(this.firmar_Click);
             // 
-            // clave_PúblicaTextBox
+            // firmText
             // 
-            this.clave_PúblicaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.vendedores_AprovadosBindingSource, "Clave Pública", true));
-            this.clave_PúblicaTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.clave_PúblicaTextBox.Location = new System.Drawing.Point(204, 162);
-            this.clave_PúblicaTextBox.Name = "clave_PúblicaTextBox";
-            this.clave_PúblicaTextBox.Size = new System.Drawing.Size(462, 23);
-            this.clave_PúblicaTextBox.TabIndex = 9;
-            this.clave_PúblicaTextBox.TextChanged += new System.EventHandler(this.clave_PúblicaTextBox_TextChanged);
+            this.firmText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.firmText.Location = new System.Drawing.Point(19, 358);
+            this.firmText.Multiline = true;
+            this.firmText.Name = "firmText";
+            this.firmText.Size = new System.Drawing.Size(758, 61);
+            this.firmText.TabIndex = 57;
+            this.firmText.TextChanged += new System.EventHandler(this.firmText_TextChanged);
             // 
-            // nacionalidadLabel
+            // privText
             // 
-            nacionalidadLabel.AutoSize = true;
-            nacionalidadLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            nacionalidadLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            nacionalidadLabel.Location = new System.Drawing.Point(104, 209);
-            nacionalidadLabel.Name = "nacionalidadLabel";
-            nacionalidadLabel.Size = new System.Drawing.Size(94, 17);
-            nacionalidadLabel.TabIndex = 10;
-            nacionalidadLabel.Text = "Nacionalidad:";
+            this.privText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.privText.Location = new System.Drawing.Point(185, 179);
+            this.privText.Multiline = true;
+            this.privText.Name = "privText";
+            this.privText.Size = new System.Drawing.Size(585, 61);
+            this.privText.TabIndex = 55;
             // 
-            // nacionalidadTextBox
+            // llaveText
             // 
-            this.nacionalidadTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.vendedores_AprovadosBindingSource, "Nacionalidad", true));
-            this.nacionalidadTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.nacionalidadTextBox.Location = new System.Drawing.Point(204, 206);
-            this.nacionalidadTextBox.Name = "nacionalidadTextBox";
-            this.nacionalidadTextBox.Size = new System.Drawing.Size(462, 23);
-            this.nacionalidadTextBox.TabIndex = 11;
+            this.llaveText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.llaveText.Location = new System.Drawing.Point(185, 112);
+            this.llaveText.Multiline = true;
+            this.llaveText.Name = "llaveText";
+            this.llaveText.Size = new System.Drawing.Size(585, 61);
+            this.llaveText.TabIndex = 53;
             // 
-            // fecha_NacimientoLabel
+            // button1
             // 
-            fecha_NacimientoLabel.AutoSize = true;
-            fecha_NacimientoLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            fecha_NacimientoLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            fecha_NacimientoLabel.Location = new System.Drawing.Point(73, 259);
-            fecha_NacimientoLabel.Name = "fecha_NacimientoLabel";
-            fecha_NacimientoLabel.Size = new System.Drawing.Size(125, 17);
-            fecha_NacimientoLabel.TabIndex = 12;
-            fecha_NacimientoLabel.Text = "Fecha Nacimiento:";
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(26)))), ((int)(((byte)(100)))));
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(26)))), ((int)(((byte)(100)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button1.Location = new System.Drawing.Point(614, 425);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(163, 30);
+            this.button1.TabIndex = 52;
+            this.button1.Text = "Guardar Certificado";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // fecha_NacimientoDateTimePicker
+            // entText
             // 
-            this.fecha_NacimientoDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.vendedores_AprovadosBindingSource, "Fecha Nacimiento", true));
-            this.fecha_NacimientoDateTimePicker.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.fecha_NacimientoDateTimePicker.Location = new System.Drawing.Point(204, 253);
-            this.fecha_NacimientoDateTimePicker.Name = "fecha_NacimientoDateTimePicker";
-            this.fecha_NacimientoDateTimePicker.Size = new System.Drawing.Size(462, 23);
-            this.fecha_NacimientoDateTimePicker.TabIndex = 13;
+            this.entText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.entText.Location = new System.Drawing.Point(185, 54);
+            this.entText.Name = "entText";
+            this.entText.Size = new System.Drawing.Size(585, 23);
+            this.entText.TabIndex = 48;
+            // 
+            // infoText
+            // 
+            this.infoText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.infoText.Location = new System.Drawing.Point(185, 16);
+            this.infoText.Multiline = true;
+            this.infoText.Name = "infoText";
+            this.infoText.Size = new System.Drawing.Size(585, 32);
+            this.infoText.TabIndex = 49;
+            // 
+            // expText
+            // 
+            this.expText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.expText.Location = new System.Drawing.Point(185, 83);
+            this.expText.Name = "expText";
+            this.expText.Size = new System.Drawing.Size(585, 23);
+            this.expText.TabIndex = 50;
+            // 
+            // publica
+            // 
+            this.publica.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.publica.Location = new System.Drawing.Point(185, 246);
+            this.publica.Multiline = true;
+            this.publica.Name = "publica";
+            this.publica.Size = new System.Drawing.Size(585, 61);
+            this.publica.TabIndex = 60;
             // 
             // AprobarVendedor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(24)))), ((int)(((byte)(49)))));
-            this.ClientSize = new System.Drawing.Size(806, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(26)))), ((int)(((byte)(49)))));
+            this.ClientSize = new System.Drawing.Size(800, 466);
+            this.Controls.Add(label4);
+            this.Controls.Add(this.publica);
+            this.Controls.Add(this.regresar);
+            this.Controls.Add(this.firmar);
+            this.Controls.Add(this.firmText);
+            this.Controls.Add(label3);
+            this.Controls.Add(this.privText);
+            this.Controls.Add(label2);
+            this.Controls.Add(this.llaveText);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(label1);
             this.Controls.Add(nombre_EntidadLabel);
-            this.Controls.Add(this.nombre_EntidadTextBox);
-            this.Controls.Add(nITLabel);
-            this.Controls.Add(this.nITTextBox);
-            this.Controls.Add(clave_PúblicaLabel);
-            this.Controls.Add(this.clave_PúblicaTextBox);
-            this.Controls.Add(nacionalidadLabel);
-            this.Controls.Add(this.nacionalidadTextBox);
-            this.Controls.Add(fecha_NacimientoLabel);
-            this.Controls.Add(this.fecha_NacimientoDateTimePicker);
-            this.Controls.Add(this.vendedores_AprovadosDataGridView);
-            this.Controls.Add(this.vendedores_AprovadosBindingNavigator);
+            this.Controls.Add(entidadLabel);
+            this.Controls.Add(this.entText);
+            this.Controls.Add(this.infoText);
+            this.Controls.Add(this.expText);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AprobarVendedor";
             this.Text = "AprobarVendedor";
-            this.Load += new System.EventHandler(this.AprobarVendedor_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.database)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.vendedores_AprovadosBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.vendedores_AprovadosBindingNavigator)).EndInit();
-            this.vendedores_AprovadosBindingNavigator.ResumeLayout(false);
-            this.vendedores_AprovadosBindingNavigator.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.vendedores_AprovadosDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -413,34 +258,15 @@ namespace Compra
 
         #endregion
 
-        private Database database;
-        private System.Windows.Forms.BindingSource vendedores_AprovadosBindingSource;
-        private DatabaseTableAdapters.Vendedores_AprovadosTableAdapter vendedores_AprovadosTableAdapter;
-        private DatabaseTableAdapters.TableAdapterManager tableAdapterManager;
-        private System.Windows.Forms.BindingNavigator vendedores_AprovadosBindingNavigator;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorAddNewItem;
-        private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorDeleteItem;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveFirstItem;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorMovePreviousItem;
-        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator;
-        private System.Windows.Forms.ToolStripTextBox bindingNavigatorPositionItem;
-        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator1;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveNextItem;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
-        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
-        private System.Windows.Forms.ToolStripButton vendedores_AprovadosBindingNavigatorSaveItem;
-        private System.Windows.Forms.DataGridView vendedores_AprovadosDataGridView;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
-        private System.Windows.Forms.TextBox nombre_EntidadTextBox;
-        private System.Windows.Forms.TextBox nITTextBox;
-        private System.Windows.Forms.TextBox clave_PúblicaTextBox;
-        private System.Windows.Forms.TextBox nacionalidadTextBox;
-        private System.Windows.Forms.DateTimePicker fecha_NacimientoDateTimePicker;
+        private System.Windows.Forms.Button regresar;
+        private System.Windows.Forms.Button firmar;
+        public System.Windows.Forms.TextBox firmText;
+        public System.Windows.Forms.TextBox privText;
+        public System.Windows.Forms.TextBox llaveText;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox entText;
+        public System.Windows.Forms.TextBox infoText;
+        private System.Windows.Forms.DateTimePicker expText;
+        public System.Windows.Forms.TextBox publica;
     }
 }

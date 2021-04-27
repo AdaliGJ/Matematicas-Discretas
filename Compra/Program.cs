@@ -16,7 +16,7 @@ namespace Compra
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new EntidadCompra());
+            Application.Run(new Entidades());
         }
     }
 }

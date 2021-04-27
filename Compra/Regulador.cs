@@ -20,7 +20,7 @@ namespace Compra
         private void button5_Click(object sender, EventArgs e)
         {
             this.Hide();
-            EntidadCompra ec = new EntidadCompra();
+            Entidades ec = new Entidades();
             ec.ShowDialog();
             this.Close();
         }
@@ -28,14 +28,17 @@ namespace Compra
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Generador g = new Generador();
+            GeneradorRegulador g = new GeneradorRegulador();
             g.ShowDialog();
             this.Close();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-           
+            this.Hide();
+            ValidarProducto vp = new ValidarProducto();
+            vp.ShowDialog();
+            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)

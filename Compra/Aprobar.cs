@@ -20,14 +20,17 @@ namespace Compra
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            VerificarSolicitudC vs = new VerificarSolicitudC();
+            vs.ShowDialog();
+            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            AprobarVendedor av = new AprobarVendedor();
-            av.ShowDialog();
+            VerificarSolicitudV vs = new VerificarSolicitudV();
+            vs.ShowDialog();
             this.Close();
         }
     }

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ArrayOfProductoClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <productoClass>
+    <nombreProducto>Disco 3</nombreProducto>
+    <descripcionProducto>Disco 10 canciones clásicas</descripcionProducto>
+    <hash>2A856054C2D678C0D41ECE6647566B6E</hash>
+    <precio>Q 40.00</precio>
+    <llave>&lt;RSAKeyValue&gt;&lt;Modulus&gt;xIKN2QfpKFXD69xD2KSlqJAmahfDP63bOp1Uo8yYYfCcR7OaC4HaJL1QmEHXu2rmnHNzNNc6+bxzgHoK0msf/eTO90k+nw3IX4HlGA+CTMEqJo8Dk6UwiZrE9QI0aQ2ZDfMP3AMSOhxW7GFL64+H/bQ1fTYC9iEwQ2P3BPzKgxBcGfLf8cUNk/XKpcwwAkQ38IP/TKk7GGUR2uGkhcXBQJITx3JRlkegJG+14/8LjENHLGBXHRrLNADB8TcY2B5jFCptH5vq5Cizvs0pUz0/Q+7eGEt5+Jf/o5C2a937+2wpRZ40mtACHxgGR0+cdl2dkR80ccBaSPCKoJxfvAH4bQ==&lt;/Modulus&gt;&lt;Exponent&gt;AQAB&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;</llave>
+    <firmado>nMQhXBLmIHjUO+jUj4JAl9JrsyHRost9Dg1bFcFHgU+9Gx3giDPV94e0nmAr2ljarEuA49EO1lMPACAQfD0nBfw+rDpiWcAXbJ4Um3T4PFAPBJx/KbNcRfRFMC2RbnQTwPB2zv6RXqWU+/pSffiLmauSc2Ficxht3O6CCH6qcJaV9KReHJoX0Lr8pYXTt7k2R3FTD5CrwGtBaZ25JlJ6m8VweifloZJubjrLrARkWiGPXsrkz1ER2LBswLSjHGH+KnnUhMSNEKw7ci/u390IQkmYKjCO/Ea0f9SsWcGxmg3qa2dPSPwTcfI73utocp5SsLV+mn/K/01aRfSTio3EoA==</firmado>
+  </productoClass>
+</ArrayOfProductoClass>

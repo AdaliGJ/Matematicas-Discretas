@@ -48,6 +48,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.10.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>..\packages\Portable.BouncyCastle.1.8.10\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -61,11 +64,56 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AgregarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarProducto.Designer.cs">
+      <DependentUpon>AgregarProducto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Aprobar.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Aprobar.Designer.cs">
       <DependentUpon>Aprobar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AprobarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AprobarProducto.Designer.cs">
+      <DependentUpon>AprobarProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CompraVenta.cs" />
+    <Compile Include="CompraVentaFirmar.cs" />
+    <Compile Include="GenerarCompraVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenerarCompraVenta.Designer.cs">
+      <DependentUpon>GenerarCompraVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MisOrdenesC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MisOrdenesC.Designer.cs">
+      <DependentUpon>MisOrdenesC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MisOrdenesV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MisOrdenesV.Designer.cs">
+      <DependentUpon>MisOrdenesV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MostrarProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MostrarProductos.Designer.cs">
+      <DependentUpon>MostrarProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SolicitudCompra.cs" />
+    <Compile Include="ValidarProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ValidarProducto.Designer.cs">
+      <DependentUpon>ValidarProducto.cs</DependentUpon>
     </Compile>
     <Compile Include="AprobarVendedor.cs">
       <SubType>Form</SubType>
@@ -73,22 +121,93 @@
     <Compile Include="AprobarVendedor.Designer.cs">
       <DependentUpon>AprobarVendedor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Database.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Database.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="EntidadCompra.cs">
+    <Compile Include="Certificados.cs" />
+    <Compile Include="Entidades.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EntidadCompra.Designer.cs">
-      <DependentUpon>EntidadCompra.cs</DependentUpon>
+    <Compile Include="Entidades.Designer.cs">
+      <DependentUpon>Entidades.cs</DependentUpon>
     </Compile>
-    <Compile Include="Generador.cs">
+    <Compile Include="AprobarComprador.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Generador.Designer.cs">
-      <DependentUpon>Generador.cs</DependentUpon>
+    <Compile Include="AprobarComprador.Designer.cs">
+      <DependentUpon>AprobarComprador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatosAprobacion.cs" />
+    <Compile Include="Firmar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Firmar.Designer.cs">
+      <DependentUpon>Firmar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comprador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comprador.Designer.cs">
+      <DependentUpon>Comprador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenerarComprador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenerarComprador.Designer.cs">
+      <DependentUpon>GenerarComprador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenerarVendedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenerarVendedor.Designer.cs">
+      <DependentUpon>GenerarVendedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="productoClass.cs" />
+    <Compile Include="RegistroVendedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistroVendedor.Designer.cs">
+      <DependentUpon>RegistroVendedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroComprador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistroComprador.Designer.cs">
+      <DependentUpon>RegistroComprador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistroClase.cs" />
+    <Compile Include="Vendedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vendedor.Designer.cs">
+      <DependentUpon>Vendedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VerificarCertificadoV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerificarCertificadoV.Designer.cs">
+      <DependentUpon>VerificarCertificadoV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VerificarCompraVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerificarCompraVenta.Designer.cs">
+      <DependentUpon>VerificarCompraVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VerificarFirma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerificarFirma.Designer.cs">
+      <DependentUpon>VerificarFirma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ValidarCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ValidarCompra.Designer.cs">
+      <DependentUpon>ValidarCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneradorRegulador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneradorRegulador.Designer.cs">
+      <DependentUpon>GeneradorRegulador.cs</DependentUpon>
     </Compile>
     <Compile Include="Regulador.cs">
       <SubType>Form</SubType>
@@ -98,17 +217,92 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VerificarSolicitudC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerificarSolicitudC.Designer.cs">
+      <DependentUpon>VerificarSolicitudC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VerificarSolicitudV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerificarSolicitudV.Designer.cs">
+      <DependentUpon>VerificarSolicitudV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VerPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerPedidos.Designer.cs">
+      <DependentUpon>VerPedidos.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AgregarProducto.resx">
+      <DependentUpon>AgregarProducto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Aprobar.resx">
       <DependentUpon>Aprobar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AprobarProducto.resx">
+      <DependentUpon>AprobarProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenerarCompraVenta.resx">
+      <DependentUpon>GenerarCompraVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MisOrdenesC.resx">
+      <DependentUpon>MisOrdenesC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MisOrdenesV.resx">
+      <DependentUpon>MisOrdenesV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MostrarProductos.resx">
+      <DependentUpon>MostrarProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ValidarProducto.resx">
+      <DependentUpon>ValidarProducto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AprobarVendedor.resx">
       <DependentUpon>AprobarVendedor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EntidadCompra.resx">
-      <DependentUpon>EntidadCompra.cs</DependentUpon>
+    <EmbeddedResource Include="Entidades.resx">
+      <DependentUpon>Entidades.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Generador.resx">
-      <DependentUpon>Generador.cs</DependentUpon>
+    <EmbeddedResource Include="AprobarComprador.resx">
+      <DependentUpon>AprobarComprador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Firmar.resx">
+      <DependentUpon>Firmar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comprador.resx">
+      <DependentUpon>Comprador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenerarComprador.resx">
+      <DependentUpon>GenerarComprador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenerarVendedor.resx">
+      <DependentUpon>GenerarVendedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroVendedor.resx">
+      <DependentUpon>RegistroVendedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroComprador.resx">
+      <DependentUpon>RegistroComprador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vendedor.resx">
+      <DependentUpon>Vendedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerificarCertificadoV.resx">
+      <DependentUpon>VerificarCertificadoV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerificarCompraVenta.resx">
+      <DependentUpon>VerificarCompraVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerificarFirma.resx">
+      <DependentUpon>VerificarFirma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ValidarCompra.resx">
+      <DependentUpon>ValidarCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneradorRegulador.resx">
+      <DependentUpon>GeneradorRegulador.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -122,17 +316,16 @@
     <EmbeddedResource Include="Regulador.resx">
       <DependentUpon>Regulador.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="Database.xsc">
-      <DependentUpon>Database.xsd</DependentUpon>
-    </None>
-    <None Include="Database.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>Database.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Database.xss">
-      <DependentUpon>Database.xsd</DependentUpon>
-    </None>
+    <EmbeddedResource Include="VerificarSolicitudC.resx">
+      <DependentUpon>VerificarSolicitudC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerificarSolicitudV.resx">
+      <DependentUpon>VerificarSolicitudV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerPedidos.resx">
+      <DependentUpon>VerPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -157,15 +350,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Database1.mdf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Database1_log.ldf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <DependentUpon>Database1.mdf</DependentUpon>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

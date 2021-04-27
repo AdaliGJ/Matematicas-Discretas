@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ArrayOfCertificados xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Certificados>
+    <Informacion>Entidad: Jaime Pérez NIT: 12345678</Informacion>
+    <Expira>domingo, 25 de abril de 2021</Expira>
+    <Entidad>Comprador</Entidad>
+    <Firma>zrh+zEtdIXOpP3+ZYyhBAjzvO+ocBiQGZhGGvpQjv5qUXgHvtFhW36jNSJlr/NnrUBjCBRbWMc5eCgdOpP6TwWlEJXGB091QAQCWNdtfIL3Dq2SHkUdkanBSq/W2BKISlACqfabwyieh/8cpfl0TU8Lz4cTmPr4HtYEpgvWsop1Mrejr6jmKcN3BwGBXiZqZauME25pL7ySQ3XIeWYhBl3IRvyjO0QeXraV47Ze4RXax4Q0NKAG9+ZDzYL13CnUW0G78n75I8yMSAljKPM31cpnwNeu4TGMYP6LT1ArTW2jxmBTX1V5ybGEV9DdznMdeR0m7Q3cpKi2xAGbxXvtgeQ==</Firma>
+    <Llave>&lt;RSAKeyValue&gt;&lt;Modulus&gt;zTq4G9pje9wN0c3sSCBDPqnDCuingrWQwxGPMD8u5WUGs08aPrR66EhS6Ya7HA0OKtK0+tvDn4kCs6W51619b/qaRshl7cywvc69bCS/GidsNl1gt4WjJVD/qScDOwtX+nsdJZshUZhsMUbzYxfAdNuK+Ydgsy0JBfKxybkBfOf/mvLRlU0Pg0nDpo7vA0ek+BvSVgHHSokTjG9DXhmmJ/jqqG4mG/NWO89dpTOgZQ+3EapcyIwmODBvQftGPfobQlM/1jpFlhegVv14ZVngfqZPNieEjm0lDk+fu1Ns4v1foooGDRAKGbchoZI/wFyxwnRURWqPnPH/wYKPmHZEHQ==&lt;/Modulus&gt;&lt;Exponent&gt;AQAB&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;</Llave>
+    <Regulador>&lt;RSAKeyValue&gt;&lt;Modulus&gt;0L38jBsdYLVc5v8IaVuEYUFTFU6eedLeWC6K1KEjQDqnFBn6ijn1etE6OL+njJx6Mg/cZVoVRx4fXJ48aHUOPdg/7vBG2AEEvSi8gdvBLBySEfBm/BoX/PrXD0T0jQ4Jv/Pu8bQlLoM+kx8nWBtJoXYtI+V++p+sbDv/Qpxf+qLFZZbs9Gj51bqRESeEKmj4UDD3wSNOg9fLuLr9U7K7g7zGqUMHyKV9jacfuwOY7imwwNqd424KT+/leWRobOs6JxRssFgOpdBk+5nQXXjG7AWAvsWkU4cMAkJwjpxD+vzCU717hkP/h/ODNKsKEg++m2oidh48Ud3rkwwkIjj+rQ==&lt;/Modulus&gt;&lt;Exponent&gt;AQAB&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;</Regulador>
+  </Certificados>
+</ArrayOfCertificados>
