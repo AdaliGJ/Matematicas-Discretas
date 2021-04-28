@@ -59,6 +59,7 @@ namespace Compra
             label1.Size = new System.Drawing.Size(168, 17);
             label1.TabIndex = 52;
             label1.Text = "Información del producto:";
+            label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // nombre_EntidadLabel
             // 
@@ -70,6 +71,7 @@ namespace Compra
             nombre_EntidadLabel.Size = new System.Drawing.Size(140, 17);
             nombre_EntidadLabel.TabIndex = 48;
             nombre_EntidadLabel.Text = "Información Firmada:";
+            nombre_EntidadLabel.Click += new System.EventHandler(this.nombre_EntidadLabel_Click);
             // 
             // entidadLabel
             // 
@@ -81,6 +83,7 @@ namespace Compra
             entidadLabel.Size = new System.Drawing.Size(183, 17);
             entidadLabel.TabIndex = 49;
             entidadLabel.Text = "Llave Pública de la Entidad:";
+            entidadLabel.Click += new System.EventHandler(this.entidadLabel_Click);
             // 
             // button1
             // 
@@ -107,6 +110,7 @@ namespace Compra
             this.label3.Size = new System.Drawing.Size(99, 17);
             this.label3.TabIndex = 59;
             this.label3.Text = "Verificar Firma";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
@@ -141,6 +145,7 @@ namespace Compra
             this.verificarText.Name = "verificarText";
             this.verificarText.Size = new System.Drawing.Size(175, 23);
             this.verificarText.TabIndex = 56;
+            this.verificarText.TextChanged += new System.EventHandler(this.verificarText_TextChanged);
             // 
             // infoText
             // 
@@ -149,6 +154,7 @@ namespace Compra
             this.infoText.Name = "infoText";
             this.infoText.Size = new System.Drawing.Size(585, 23);
             this.infoText.TabIndex = 55;
+            this.infoText.TextChanged += new System.EventHandler(this.infoText_TextChanged);
             // 
             // dataGridView1
             // 
@@ -183,6 +189,7 @@ namespace Compra
             this.llaveText.Name = "llaveText";
             this.llaveText.Size = new System.Drawing.Size(585, 63);
             this.llaveText.TabIndex = 50;
+            this.llaveText.TextChanged += new System.EventHandler(this.llaveText_TextChanged);
             // 
             // infoFirmaText
             // 
@@ -192,6 +199,7 @@ namespace Compra
             this.infoFirmaText.Name = "infoFirmaText";
             this.infoFirmaText.Size = new System.Drawing.Size(585, 78);
             this.infoFirmaText.TabIndex = 51;
+            this.infoFirmaText.TextChanged += new System.EventHandler(this.infoFirmaText_TextChanged);
             // 
             // button2
             // 

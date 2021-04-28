@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ArrayOfEntregaClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntregaClass>
+    <comprador>&lt;RSAKeyValue&gt;&lt;Modulus&gt;zTq4G9pje9wN0c3sSCBDPqnDCuingrWQwxGPMD8u5WUGs08aPrR66EhS6Ya7HA0OKtK0+tvDn4kCs6W51619b/qaRshl7cywvc69bCS/GidsNl1gt4WjJVD/qScDOwtX+nsdJZshUZhsMUbzYxfAdNuK+Ydgsy0JBfKxybkBfOf/mvLRlU0Pg0nDpo7vA0ek+BvSVgHHSokTjG9DXhmmJ/jqqG4mG/NWO89dpTOgZQ+3EapcyIwmODBvQftGPfobQlM/1jpFlhegVv14ZVngfqZPNieEjm0lDk+fu1Ns4v1foooGDRAKGbchoZI/wFyxwnRURWqPnPH/wYKPmHZEHQ==&lt;/Modulus&gt;&lt;Exponent&gt;AQAB&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;</comprador>
+    <vendedor>&lt;RSAKeyValue&gt;&lt;Modulus&gt;xIKN2QfpKFXD69xD2KSlqJAmahfDP63bOp1Uo8yYYfCcR7OaC4HaJL1QmEHXu2rmnHNzNNc6+bxzgHoK0msf/eTO90k+nw3IX4HlGA+CTMEqJo8Dk6UwiZrE9QI0aQ2ZDfMP3AMSOhxW7GFL64+H/bQ1fTYC9iEwQ2P3BPzKgxBcGfLf8cUNk/XKpcwwAkQ38IP/TKk7GGUR2uGkhcXBQJITx3JRlkegJG+14/8LjENHLGBXHRrLNADB8TcY2B5jFCptH5vq5Cizvs0pUz0/Q+7eGEt5+Jf/o5C2a937+2wpRZ40mtACHxgGR0+cdl2dkR80ccBaSPCKoJxfvAH4bQ==&lt;/Modulus&gt;&lt;Exponent&gt;AQAB&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;</vendedor>
+    <identificador>7fc5d66a-9328-49d5-860a-789363fa5528</identificador>
+    <hash>8476E78ACD761E0E2FE0E154141687A3</hash>
+    <path>pIo4hYhVGL2/szYhwMtCmAdQj9Xv0YVT7T5PO0Sumr5sMXlxCNgcs7rVuu/GHZb98/Sxjp/idy7517xQ096StVq/gCsVun0mcdlqtn3QCyQ4uhAcRW2wzBqKFiZv7SDrJomWs/EdFiQzbeeUpsYfxFPGE8efBXYgR3+KHbZbDI/lXpJu9QdmpC8vxfbmaLB8gAKD1bT8Ypmk62QfKk2B0yyPg5IgT1HvJWBtRO3HmotNi8t7zRpSypgT3X/fZtQ10DCANbWUhicNDqUz1DX/3TAWR3eYuNsxYjmX7ds1ZCXQhYfy1A7e6CBpZEG+x6gyDxvbikuLjTq/XOwlafDYtw==</path>
+    <precio>Q30.00</precio>
+  </EntregaClass>
+</ArrayOfEntregaClass>

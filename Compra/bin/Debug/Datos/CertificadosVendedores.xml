@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <ArrayOfCertificados xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Certificados>
-    <Informacion>Entidad: Ventas, S.A. NIT: 12345678</Informacion>
-    <Expira>domingo, 25 de abril de 2021</Expira>
+    <Informacion>Entidad: Discos Digitales Jaime NIT: 1234567</Informacion>
+    <Expira>viernes, 17 de julio de 2026</Expira>
     <Entidad>Vendedor</Entidad>
-    <Firma>LwmgeUnOu+9XykhX3imuK8zJHCcnproMs/S/jX9EkU2JCOOLlccxnjl96ZwIOs5XDO4qZdYqvnevIX1vc/wjAe3f5ZpQr6b846pjk3QjSttkxOeoYChWPqwwRGIlArPtGzRYgjfsUHzrka2aPGB/YRYaas/+8Jy2qXggZR2LsaT4EK6K4SAkIFoIhOpsI9Pb2OM9nP+Vp+W/KEa6LbdwA1kICQRyOE35q1vBLxlpCu6ZToHYM1IN/ZeMp6zAVY3LICe34UHmaFBSyIAEeMDtlrX+vRd1nXTv3ZoGNadcw9PQFtJcezRsZtO8Uv7bOOp6GIbuaBkK3E2JQUyE/JSETA==</Firma>
+    <Firma>rLlPQMkNY0JXiHmUawn1s/O9c9ELlMRV1epTQW9ZQ/7X/n8NwIOHJ2i2IGv0XsSTc9E4K7sY1/yILw+qzd0kaWq6RUlTE87g/p0YhKkvyUg1x/2dm+fwMYXoFio964yjtgDbLQQTzKRCpOhN0sMpdXgsShrWlEf1g7HjA7JjCaVkFQOieQ7qfcZgaTBfvXSfFcSaInB45M0289BciMydfZgLY0g6iP7SWjl9Yh31VqCuE/pXFluvk0pQUKDlTeTOHalPsitEYwwncSAUj1rP4fFszZiW856A6u1298mqssC3bfaJfrN5MbhhShfjLXG3qyIsRbmEzr3v9AdfyowY6A==</Firma>
     <Llave>&lt;RSAKeyValue&gt;&lt;Modulus&gt;xIKN2QfpKFXD69xD2KSlqJAmahfDP63bOp1Uo8yYYfCcR7OaC4HaJL1QmEHXu2rmnHNzNNc6+bxzgHoK0msf/eTO90k+nw3IX4HlGA+CTMEqJo8Dk6UwiZrE9QI0aQ2ZDfMP3AMSOhxW7GFL64+H/bQ1fTYC9iEwQ2P3BPzKgxBcGfLf8cUNk/XKpcwwAkQ38IP/TKk7GGUR2uGkhcXBQJITx3JRlkegJG+14/8LjENHLGBXHRrLNADB8TcY2B5jFCptH5vq5Cizvs0pUz0/Q+7eGEt5+Jf/o5C2a937+2wpRZ40mtACHxgGR0+cdl2dkR80ccBaSPCKoJxfvAH4bQ==&lt;/Modulus&gt;&lt;Exponent&gt;AQAB&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;</Llave>
     <Regulador>&lt;RSAKeyValue&gt;&lt;Modulus&gt;0L38jBsdYLVc5v8IaVuEYUFTFU6eedLeWC6K1KEjQDqnFBn6ijn1etE6OL+njJx6Mg/cZVoVRx4fXJ48aHUOPdg/7vBG2AEEvSi8gdvBLBySEfBm/BoX/PrXD0T0jQ4Jv/Pu8bQlLoM+kx8nWBtJoXYtI+V++p+sbDv/Qpxf+qLFZZbs9Gj51bqRESeEKmj4UDD3wSNOg9fLuLr9U7K7g7zGqUMHyKV9jacfuwOY7imwwNqd424KT+/leWRobOs6JxRssFgOpdBk+5nQXXjG7AWAvsWkU4cMAkJwjpxD+vzCU717hkP/h/ODNKsKEg++m2oidh48Ud3rkwwkIjj+rQ==&lt;/Modulus&gt;&lt;Exponent&gt;AQAB&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;</Regulador>
   </Certificados>

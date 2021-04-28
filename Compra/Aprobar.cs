@@ -33,5 +33,13 @@ namespace Compra
             vs.ShowDialog();
             this.Close();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Regulador r = new Regulador();
+            r.ShowDialog();
+            this.Close();
+        }
     }
 }

@@ -24,5 +24,21 @@ namespace Compra
             vcp.ShowDialog();
             this.Close();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            RecibirProducto rp = new RecibirProducto();
+            rp.ShowDialog();
+            this.Close();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Comprador c = new Comprador();
+            c.ShowDialog();
+            this.Close();
+        }
     }
 }

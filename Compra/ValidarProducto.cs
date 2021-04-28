@@ -162,5 +162,45 @@ namespace Compra
             ap.ShowDialog();
             this.Close();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void verificarText_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void infoText_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nombre_EntidadLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void entidadLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void llaveText_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void infoFirmaText_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

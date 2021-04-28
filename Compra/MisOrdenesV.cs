@@ -32,5 +32,13 @@ namespace Compra
             vp.ShowDialog();
             this.Close();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            EntregaProducto ep = new EntregaProducto();
+            ep.ShowDialog();
+            this.Close();
+        }
     }
 }

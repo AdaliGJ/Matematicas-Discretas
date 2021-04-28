@@ -96,7 +96,6 @@ namespace Compra
             infoText.Text = "";
             entText.Text = "";
             expText.Text = "";
-            llaveText.Text = "";
             privText.Text = "";
             publica.Text = "";
 
@@ -108,6 +107,14 @@ namespace Compra
             fs.Close();
 
             firmText.Text = "";
+
+            this.Hide();
+            CrearCuentaV cc = new CrearCuentaV();
+            cc.llaveText.Text = llaveText.Text;
+            cc.ShowDialog();
+            this.Close();
+
+            llaveText.Text = "";
         }
 
         private void firmText_TextChanged(object sender, EventArgs e)

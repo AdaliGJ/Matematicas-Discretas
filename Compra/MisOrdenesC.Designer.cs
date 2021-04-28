@@ -49,6 +49,7 @@ namespace Compra
             this.button5.TabIndex = 40;
             this.button5.Text = "Regresar a Menú";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -61,8 +62,9 @@ namespace Compra
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(217, 30);
             this.button4.TabIndex = 39;
-            this.button4.Text = "Transacciones en Curso";
+            this.button4.Text = "Recibir Productos";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 

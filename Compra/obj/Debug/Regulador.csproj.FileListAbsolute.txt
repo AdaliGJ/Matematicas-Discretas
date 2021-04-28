@@ -27,8 +27,6 @@ C:\Users\adali\Desktop\Final Discretas\Compra\bin\Debug\BouncyCastle.Crypto.dll
 C:\Users\adali\Desktop\Final Discretas\Compra\bin\Debug\BouncyCastle.Crypto.xml
 C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Regulador.csproj.CopyComplete
 C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.ValidarCompra.resources
-C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.Firmar.resources
-C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.VerificarFirma.resources
 C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.Entidades.resources
 C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.Comprador.resources
 C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.Generar_Comprador.resources
@@ -49,3 +47,15 @@ C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.GenerarCompraVent
 C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.MisOrdenesC.resources
 C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.VerificarCompraVenta.resources
 C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.VerificarCertificadoV.resources
+C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.Validación_compra.resources
+C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.VerificarCompraVentaReg.resources
+C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.VerificarCompraVentaReg2.resources
+C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.CrearCuentaV.resources
+C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.CrearCuentaC.resources
+C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.ActualizarCuentas.resources
+C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.IniciarTransaccion.resources
+C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.EntregaProducto.resources
+C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.EnviarProductoAComprador.resources
+C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.RecibirProducto.resources
+C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.FinalizarTransaccion.resources
+C:\Users\adali\Desktop\Final Discretas\Compra\obj\Debug\Compra.Finalizadas.resources

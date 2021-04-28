@@ -1,10 +1,18 @@
 <?xml version="1.0"?>
 <ArrayOfSolicitudCompra xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SolicitudCompra>
-    <nombreProducto>Disco 3</nombreProducto>
-    <descripcionProducto>Disco 10 canciones clásicas</descripcionProducto>
-    <hash>2A856054C2D678C0D41ECE6647566B6E</hash>
-    <precio>Q 40.00</precio>
+    <nombreProducto>Disco Digital 3</nombreProducto>
+    <descripcionProducto>Disco Digital 30 canciones</descripcionProducto>
+    <hash>858CF2341E700C2C21085B5713CFB1FF</hash>
+    <precio>Q40.00</precio>
+    <vendedor>&lt;RSAKeyValue&gt;&lt;Modulus&gt;xIKN2QfpKFXD69xD2KSlqJAmahfDP63bOp1Uo8yYYfCcR7OaC4HaJL1QmEHXu2rmnHNzNNc6+bxzgHoK0msf/eTO90k+nw3IX4HlGA+CTMEqJo8Dk6UwiZrE9QI0aQ2ZDfMP3AMSOhxW7GFL64+H/bQ1fTYC9iEwQ2P3BPzKgxBcGfLf8cUNk/XKpcwwAkQ38IP/TKk7GGUR2uGkhcXBQJITx3JRlkegJG+14/8LjENHLGBXHRrLNADB8TcY2B5jFCptH5vq5Cizvs0pUz0/Q+7eGEt5+Jf/o5C2a937+2wpRZ40mtACHxgGR0+cdl2dkR80ccBaSPCKoJxfvAH4bQ==&lt;/Modulus&gt;&lt;Exponent&gt;AQAB&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;</vendedor>
+    <comprador>&lt;RSAKeyValue&gt;&lt;Modulus&gt;zTq4G9pje9wN0c3sSCBDPqnDCuingrWQwxGPMD8u5WUGs08aPrR66EhS6Ya7HA0OKtK0+tvDn4kCs6W51619b/qaRshl7cywvc69bCS/GidsNl1gt4WjJVD/qScDOwtX+nsdJZshUZhsMUbzYxfAdNuK+Ydgsy0JBfKxybkBfOf/mvLRlU0Pg0nDpo7vA0ek+BvSVgHHSokTjG9DXhmmJ/jqqG4mG/NWO89dpTOgZQ+3EapcyIwmODBvQftGPfobQlM/1jpFlhegVv14ZVngfqZPNieEjm0lDk+fu1Ns4v1foooGDRAKGbchoZI/wFyxwnRURWqPnPH/wYKPmHZEHQ==&lt;/Modulus&gt;&lt;Exponent&gt;AQAB&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;</comprador>
+  </SolicitudCompra>
+  <SolicitudCompra>
+    <nombreProducto>Disco Digital 4</nombreProducto>
+    <descripcionProducto>Disco de Jazz</descripcionProducto>
+    <hash>8476E78ACD761E0E2FE0E154141687A3</hash>
+    <precio>Q30.00</precio>
     <vendedor>&lt;RSAKeyValue&gt;&lt;Modulus&gt;xIKN2QfpKFXD69xD2KSlqJAmahfDP63bOp1Uo8yYYfCcR7OaC4HaJL1QmEHXu2rmnHNzNNc6+bxzgHoK0msf/eTO90k+nw3IX4HlGA+CTMEqJo8Dk6UwiZrE9QI0aQ2ZDfMP3AMSOhxW7GFL64+H/bQ1fTYC9iEwQ2P3BPzKgxBcGfLf8cUNk/XKpcwwAkQ38IP/TKk7GGUR2uGkhcXBQJITx3JRlkegJG+14/8LjENHLGBXHRrLNADB8TcY2B5jFCptH5vq5Cizvs0pUz0/Q+7eGEt5+Jf/o5C2a937+2wpRZ40mtACHxgGR0+cdl2dkR80ccBaSPCKoJxfvAH4bQ==&lt;/Modulus&gt;&lt;Exponent&gt;AQAB&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;</vendedor>
     <comprador>&lt;RSAKeyValue&gt;&lt;Modulus&gt;zTq4G9pje9wN0c3sSCBDPqnDCuingrWQwxGPMD8u5WUGs08aPrR66EhS6Ya7HA0OKtK0+tvDn4kCs6W51619b/qaRshl7cywvc69bCS/GidsNl1gt4WjJVD/qScDOwtX+nsdJZshUZhsMUbzYxfAdNuK+Ydgsy0JBfKxybkBfOf/mvLRlU0Pg0nDpo7vA0ek+BvSVgHHSokTjG9DXhmmJ/jqqG4mG/NWO89dpTOgZQ+3EapcyIwmODBvQftGPfobQlM/1jpFlhegVv14ZVngfqZPNieEjm0lDk+fu1Ns4v1foooGDRAKGbchoZI/wFyxwnRURWqPnPH/wYKPmHZEHQ==&lt;/Modulus&gt;&lt;Exponent&gt;AQAB&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;</comprador>
   </SolicitudCompra>

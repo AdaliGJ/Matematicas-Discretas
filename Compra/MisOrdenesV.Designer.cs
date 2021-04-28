@@ -100,8 +100,9 @@ namespace Compra
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(217, 30);
             this.button4.TabIndex = 34;
-            this.button4.Text = "Transacciones en Curso";
+            this.button4.Text = "Transacciones Iniciadas";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // MisOrdenesV
             // 

@@ -60,7 +60,6 @@ namespace Compra
             infoText.Text = "";
             entText.Text = "";
             expText.Text = "";
-            llaveText.Text = "";
             privText.Text = "";
             publica.Text = "";
 
@@ -69,6 +68,14 @@ namespace Compra
             xs.Serialize(fs, ls);
 
             fs.Close();
+
+            this.Hide();
+            CrearCuentaC cc = new CrearCuentaC();
+            cc.llaveText.Text = llaveText.Text;
+            cc.ShowDialog();
+            this.Close();
+
+            llaveText.Text = "";
 
             firmText.Text = "";
         }

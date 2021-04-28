@@ -64,6 +64,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActualizarCuentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActualizarCuentas.Designer.cs">
+      <DependentUpon>ActualizarCuentas.cs</DependentUpon>
+    </Compile>
     <Compile Include="AgregarProducto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,14 +88,60 @@
     <Compile Include="AprobarProducto.Designer.cs">
       <DependentUpon>AprobarProducto.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cerrada.cs" />
     <Compile Include="CompraVenta.cs" />
     <Compile Include="CompraVentaFirmar.cs" />
+    <Compile Include="CrearCuentaC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearCuentaC.Designer.cs">
+      <DependentUpon>CrearCuentaC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrearCuentaV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrearCuentaV.Designer.cs">
+      <DependentUpon>CrearCuentaV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuenta.cs" />
+    <Compile Include="EntregaClass.cs" />
+    <Compile Include="EntregaProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EntregaProducto.Designer.cs">
+      <DependentUpon>EntregaProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnviarProductoAComprador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnviarProductoAComprador.Designer.cs">
+      <DependentUpon>EnviarProductoAComprador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Finalizadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Finalizadas.Designer.cs">
+      <DependentUpon>Finalizadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FinalizarTransaccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinalizarTransaccion.Designer.cs">
+      <DependentUpon>FinalizarTransaccion.cs</DependentUpon>
+    </Compile>
     <Compile Include="GenerarCompraVenta.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GenerarCompraVenta.Designer.cs">
       <DependentUpon>GenerarCompraVenta.cs</DependentUpon>
     </Compile>
+    <Compile Include="IniciarTransaccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IniciarTransaccion.Designer.cs">
+      <DependentUpon>IniciarTransaccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InicioTransaccionClass.cs" />
     <Compile Include="MisOrdenesC.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,7 +160,20 @@
     <Compile Include="MostrarProductos.Designer.cs">
       <DependentUpon>MostrarProductos.cs</DependentUpon>
     </Compile>
+    <Compile Include="RecibirProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecibirProducto.Designer.cs">
+      <DependentUpon>RecibirProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reguladorLlaves.cs" />
     <Compile Include="SolicitudCompra.cs" />
+    <Compile Include="Validación compra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Validación compra.Designer.cs">
+      <DependentUpon>Validación compra.cs</DependentUpon>
+    </Compile>
     <Compile Include="ValidarProducto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,12 +200,6 @@
       <DependentUpon>AprobarComprador.cs</DependentUpon>
     </Compile>
     <Compile Include="DatosAprobacion.cs" />
-    <Compile Include="Firmar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Firmar.Designer.cs">
-      <DependentUpon>Firmar.cs</DependentUpon>
-    </Compile>
     <Compile Include="Comprador.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -191,11 +250,17 @@
     <Compile Include="VerificarCompraVenta.Designer.cs">
       <DependentUpon>VerificarCompraVenta.cs</DependentUpon>
     </Compile>
-    <Compile Include="VerificarFirma.cs">
+    <Compile Include="VerificarCompraVentaReg.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="VerificarFirma.Designer.cs">
-      <DependentUpon>VerificarFirma.cs</DependentUpon>
+    <Compile Include="VerificarCompraVentaReg.Designer.cs">
+      <DependentUpon>VerificarCompraVentaReg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VerificarCompraVentaReg2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerificarCompraVentaReg2.Designer.cs">
+      <DependentUpon>VerificarCompraVentaReg2.cs</DependentUpon>
     </Compile>
     <Compile Include="ValidarCompra.cs">
       <SubType>Form</SubType>
@@ -235,6 +300,9 @@
     <Compile Include="VerPedidos.Designer.cs">
       <DependentUpon>VerPedidos.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ActualizarCuentas.resx">
+      <DependentUpon>ActualizarCuentas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AgregarProducto.resx">
       <DependentUpon>AgregarProducto.cs</DependentUpon>
     </EmbeddedResource>
@@ -244,8 +312,29 @@
     <EmbeddedResource Include="AprobarProducto.resx">
       <DependentUpon>AprobarProducto.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CrearCuentaC.resx">
+      <DependentUpon>CrearCuentaC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrearCuentaV.resx">
+      <DependentUpon>CrearCuentaV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EntregaProducto.resx">
+      <DependentUpon>EntregaProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnviarProductoAComprador.resx">
+      <DependentUpon>EnviarProductoAComprador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finalizadas.resx">
+      <DependentUpon>Finalizadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinalizarTransaccion.resx">
+      <DependentUpon>FinalizarTransaccion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GenerarCompraVenta.resx">
       <DependentUpon>GenerarCompraVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IniciarTransaccion.resx">
+      <DependentUpon>IniciarTransaccion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MisOrdenesC.resx">
       <DependentUpon>MisOrdenesC.cs</DependentUpon>
@@ -255,6 +344,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MostrarProductos.resx">
       <DependentUpon>MostrarProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecibirProducto.resx">
+      <DependentUpon>RecibirProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Validación compra.resx">
+      <DependentUpon>Validación compra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ValidarProducto.resx">
       <DependentUpon>ValidarProducto.cs</DependentUpon>
@@ -267,9 +362,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AprobarComprador.resx">
       <DependentUpon>AprobarComprador.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Firmar.resx">
-      <DependentUpon>Firmar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Comprador.resx">
       <DependentUpon>Comprador.cs</DependentUpon>
@@ -295,8 +387,11 @@
     <EmbeddedResource Include="VerificarCompraVenta.resx">
       <DependentUpon>VerificarCompraVenta.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="VerificarFirma.resx">
-      <DependentUpon>VerificarFirma.cs</DependentUpon>
+    <EmbeddedResource Include="VerificarCompraVentaReg.resx">
+      <DependentUpon>VerificarCompraVentaReg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerificarCompraVentaReg2.resx">
+      <DependentUpon>VerificarCompraVentaReg2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ValidarCompra.resx">
       <DependentUpon>ValidarCompra.cs</DependentUpon>
