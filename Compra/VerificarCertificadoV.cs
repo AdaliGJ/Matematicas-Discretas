@@ -114,6 +114,7 @@ namespace Compra
             string signed = Signature(info, pk, "utf-8");
 
             firmado.Text = signed;
+
         }
 
         public static string Signature(string str, string privateKey, string encoding)
@@ -135,6 +136,13 @@ namespace Compra
 
         private void button1_Click(object sender, EventArgs e)
         {
+            DateTime hoy = DateTime.Today;
+            DateTime certi = Convert.ToDateTime(fechaexp);
+            int result = DateTime.Compare(hoy, certi);
+
+            if (result < 0) { 
+
+
             string startupPath = Environment.CurrentDirectory;
 
             var path = String.Format("Datos/CompraVentaRegulador.xml", startupPath);
@@ -170,6 +178,21 @@ namespace Compra
             xs.Serialize(fs, ls);
 
             fs.Close();
+            }
+            else
+            {
+                label2.Text = "Certificado vencido";
+
+                infoFirmaText.Text = "";
+                infoText.Text = "";
+                llaveText.Text = "";
+                exp.Text = "";
+                precio.Text = "";
+                comprador.Text = "";
+                firmado.Text = "";
+                verificarText.Text = "";
+            }
+
         }
 
         private void regresar_Click(object sender, EventArgs e)
@@ -178,6 +201,11 @@ namespace Compra
             Comprador c = new Comprador();
             c.ShowDialog();
             this.Close();
+        }
+
+        private void exp_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

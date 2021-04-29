@@ -36,6 +36,7 @@ namespace Compra
             System.Windows.Forms.Label label5;
             System.Windows.Forms.Label label6;
             System.Windows.Forms.Label label7;
+            System.Windows.Forms.Label label8;
             this.label4 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.regresar = new System.Windows.Forms.Button();
@@ -57,7 +58,85 @@ namespace Compra
             label5 = new System.Windows.Forms.Label();
             label6 = new System.Windows.Forms.Label();
             label7 = new System.Windows.Forms.Label();
+            label8 = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label1.Location = new System.Drawing.Point(63, 184);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(137, 17);
+            label1.TabIndex = 82;
+            label1.Text = "Información Entidad:";
+            // 
+            // nombre_EntidadLabel
+            // 
+            nombre_EntidadLabel.AutoSize = true;
+            nombre_EntidadLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            nombre_EntidadLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            nombre_EntidadLabel.Location = new System.Drawing.Point(60, 60);
+            nombre_EntidadLabel.Name = "nombre_EntidadLabel";
+            nombre_EntidadLabel.Size = new System.Drawing.Size(140, 17);
+            nombre_EntidadLabel.TabIndex = 78;
+            nombre_EntidadLabel.Text = "Información Firmada:";
+            // 
+            // entidadLabel
+            // 
+            entidadLabel.AutoSize = true;
+            entidadLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            entidadLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            entidadLabel.Location = new System.Drawing.Point(17, 121);
+            entidadLabel.Name = "entidadLabel";
+            entidadLabel.Size = new System.Drawing.Size(183, 17);
+            entidadLabel.TabIndex = 79;
+            entidadLabel.Text = "Llave Pública de la Entidad:";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label3.Location = new System.Drawing.Point(223, 290);
+            label3.Name = "label3";
+            label3.Size = new System.Drawing.Size(77, 17);
+            label3.TabIndex = 95;
+            label3.Text = "Expiración:";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label5.Location = new System.Drawing.Point(544, 290);
+            label5.Name = "label5";
+            label5.Size = new System.Drawing.Size(113, 17);
+            label5.TabIndex = 96;
+            label5.Text = "Precio Producto:";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label6.Location = new System.Drawing.Point(39, 351);
+            label6.Name = "label6";
+            label6.Size = new System.Drawing.Size(163, 17);
+            label6.TabIndex = 98;
+            label6.Text = "Ingrese su llave Privada:";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label7.Location = new System.Drawing.Point(17, 419);
+            label7.Name = "label7";
+            label7.Size = new System.Drawing.Size(111, 17);
+            label7.TabIndex = 100;
+            label7.Text = "Datos Firmados:";
             // 
             // label4
             // 
@@ -132,39 +211,6 @@ namespace Compra
             this.verificar.UseVisualStyleBackColor = false;
             this.verificar.Click += new System.EventHandler(this.verificar_Click);
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            label1.Location = new System.Drawing.Point(63, 184);
-            label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(137, 17);
-            label1.TabIndex = 82;
-            label1.Text = "Información Entidad:";
-            // 
-            // nombre_EntidadLabel
-            // 
-            nombre_EntidadLabel.AutoSize = true;
-            nombre_EntidadLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            nombre_EntidadLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            nombre_EntidadLabel.Location = new System.Drawing.Point(60, 60);
-            nombre_EntidadLabel.Name = "nombre_EntidadLabel";
-            nombre_EntidadLabel.Size = new System.Drawing.Size(140, 17);
-            nombre_EntidadLabel.TabIndex = 78;
-            nombre_EntidadLabel.Text = "Información Firmada:";
-            // 
-            // entidadLabel
-            // 
-            entidadLabel.AutoSize = true;
-            entidadLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            entidadLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            entidadLabel.Location = new System.Drawing.Point(17, 121);
-            entidadLabel.Name = "entidadLabel";
-            entidadLabel.Size = new System.Drawing.Size(183, 17);
-            entidadLabel.TabIndex = 79;
-            entidadLabel.Text = "Llave Pública de la Entidad:";
-            // 
             // llaveText
             // 
             this.llaveText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
@@ -187,12 +233,12 @@ namespace Compra
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(16, 287);
+            this.label2.ForeColor = System.Drawing.Color.Yellow;
+            this.label2.Location = new System.Drawing.Point(299, 263);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(171, 20);
+            this.label2.Size = new System.Drawing.Size(13, 20);
             this.label2.TabIndex = 92;
-            this.label2.Text = "Aprobación certificado:";
+            this.label2.Text = " ";
             // 
             // exp
             // 
@@ -201,6 +247,7 @@ namespace Compra
             this.exp.Name = "exp";
             this.exp.Size = new System.Drawing.Size(209, 23);
             this.exp.TabIndex = 93;
+            this.exp.TextChanged += new System.EventHandler(this.exp_TextChanged);
             // 
             // precio
             // 
@@ -209,28 +256,6 @@ namespace Compra
             this.precio.Name = "precio";
             this.precio.Size = new System.Drawing.Size(125, 23);
             this.precio.TabIndex = 94;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            label3.Location = new System.Drawing.Point(223, 290);
-            label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(77, 17);
-            label3.TabIndex = 95;
-            label3.Text = "Expiración:";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            label5.Location = new System.Drawing.Point(544, 290);
-            label5.Name = "label5";
-            label5.Size = new System.Drawing.Size(113, 17);
-            label5.TabIndex = 96;
-            label5.Text = "Precio Producto:";
             // 
             // comprador
             // 
@@ -241,17 +266,6 @@ namespace Compra
             this.comprador.Size = new System.Drawing.Size(585, 63);
             this.comprador.TabIndex = 97;
             // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            label6.Location = new System.Drawing.Point(39, 351);
-            label6.Name = "label6";
-            label6.Size = new System.Drawing.Size(163, 17);
-            label6.TabIndex = 98;
-            label6.Text = "Ingrese su llave Privada:";
-            // 
             // firmado
             // 
             this.firmado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
@@ -260,17 +274,6 @@ namespace Compra
             this.firmado.Name = "firmado";
             this.firmado.Size = new System.Drawing.Size(768, 63);
             this.firmado.TabIndex = 99;
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            label7.Location = new System.Drawing.Point(17, 419);
-            label7.Name = "label7";
-            label7.Size = new System.Drawing.Size(111, 17);
-            label7.TabIndex = 100;
-            label7.Text = "Datos Firmados:";
             // 
             // button1
             // 
@@ -287,12 +290,24 @@ namespace Compra
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label8.Location = new System.Drawing.Point(12, 263);
+            label8.Name = "label8";
+            label8.Size = new System.Drawing.Size(174, 20);
+            label8.TabIndex = 102;
+            label8.Text = "Aprobación Certificado:";
+            // 
             // VerificarCertificadoV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(26)))), ((int)(((byte)(49)))));
             this.ClientSize = new System.Drawing.Size(800, 550);
+            this.Controls.Add(label8);
             this.Controls.Add(this.button1);
             this.Controls.Add(label7);
             this.Controls.Add(this.firmado);
