@@ -211,7 +211,6 @@ namespace Compra
             this.Controls.Add(entidadLabel);
             this.Controls.Add(this.llaveText);
             this.Controls.Add(this.infoFirmaText);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "VerificarSolicitudV";
             this.Text = "VerificarSolicitudV";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

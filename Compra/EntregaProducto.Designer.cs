@@ -49,6 +49,50 @@ namespace Compra
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label1.Location = new System.Drawing.Point(34, 339);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(167, 17);
+            label1.TabIndex = 94;
+            label1.Text = "Información Transacción:";
+            // 
+            // nombre_EntidadLabel
+            // 
+            nombre_EntidadLabel.AutoSize = true;
+            nombre_EntidadLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            nombre_EntidadLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            nombre_EntidadLabel.Location = new System.Drawing.Point(60, 214);
+            nombre_EntidadLabel.Name = "nombre_EntidadLabel";
+            nombre_EntidadLabel.Size = new System.Drawing.Size(140, 17);
+            nombre_EntidadLabel.TabIndex = 90;
+            nombre_EntidadLabel.Text = "Información Firmada:";
+            // 
+            // entidadLabel
+            // 
+            entidadLabel.AutoSize = true;
+            entidadLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            entidadLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            entidadLabel.Location = new System.Drawing.Point(17, 275);
+            entidadLabel.Name = "entidadLabel";
+            entidadLabel.Size = new System.Drawing.Size(183, 17);
+            entidadLabel.TabIndex = 91;
+            entidadLabel.Text = "Llave Pública de la Entidad:";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label3.Location = new System.Drawing.Point(416, 177);
+            label3.Name = "label3";
+            label3.Size = new System.Drawing.Size(173, 17);
+            label3.TabIndex = 100;
+            label3.Text = "Verificar Firma Regulador:";
+            // 
             // dataGridView1
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
@@ -132,39 +176,6 @@ namespace Compra
             this.verificar.UseVisualStyleBackColor = false;
             this.verificar.Click += new System.EventHandler(this.verificar_Click);
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            label1.Location = new System.Drawing.Point(34, 339);
-            label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(167, 17);
-            label1.TabIndex = 94;
-            label1.Text = "Información Transacción:";
-            // 
-            // nombre_EntidadLabel
-            // 
-            nombre_EntidadLabel.AutoSize = true;
-            nombre_EntidadLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            nombre_EntidadLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            nombre_EntidadLabel.Location = new System.Drawing.Point(60, 214);
-            nombre_EntidadLabel.Name = "nombre_EntidadLabel";
-            nombre_EntidadLabel.Size = new System.Drawing.Size(140, 17);
-            nombre_EntidadLabel.TabIndex = 90;
-            nombre_EntidadLabel.Text = "Información Firmada:";
-            // 
-            // entidadLabel
-            // 
-            entidadLabel.AutoSize = true;
-            entidadLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            entidadLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            entidadLabel.Location = new System.Drawing.Point(17, 275);
-            entidadLabel.Name = "entidadLabel";
-            entidadLabel.Size = new System.Drawing.Size(183, 17);
-            entidadLabel.TabIndex = 91;
-            entidadLabel.Text = "Llave Pública de la Entidad:";
-            // 
             // llaveText
             // 
             this.llaveText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
@@ -182,17 +193,6 @@ namespace Compra
             this.infoFirmaText.Name = "infoFirmaText";
             this.infoFirmaText.Size = new System.Drawing.Size(585, 50);
             this.infoFirmaText.TabIndex = 93;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            label3.Location = new System.Drawing.Point(416, 177);
-            label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(173, 17);
-            label3.TabIndex = 100;
-            label3.Text = "Verificar Firma Regulador:";
             // 
             // EntregaProducto
             // 
@@ -213,7 +213,6 @@ namespace Compra
             this.Controls.Add(this.infoFirmaText);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dataGridView1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "EntregaProducto";
             this.Text = "EntregaProducto";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

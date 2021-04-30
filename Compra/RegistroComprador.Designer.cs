@@ -224,7 +224,6 @@ namespace Compra
             this.Controls.Add(entidadLabel);
             this.Controls.Add(this.entText);
             this.Controls.Add(this.llaveText);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "RegistroComprador";
             this.Text = "RegistroComprador";
             this.ResumeLayout(false);

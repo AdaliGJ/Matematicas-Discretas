@@ -40,6 +40,7 @@ namespace Compra
             dataGridView1.DataSource = ls;
             fs.Close();
 
+
             //Aprobados
             ls2 = new List<productoClass>();
             xs2 = new XmlSerializer(typeof(List<productoClass>));

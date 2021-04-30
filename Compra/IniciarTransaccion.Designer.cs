@@ -48,6 +48,39 @@ namespace Compra
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label1.Location = new System.Drawing.Point(9, 330);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(99, 17);
+            label1.TabIndex = 80;
+            label1.Text = "Datos firmdos:";
+            // 
+            // nombre_EntidadLabel
+            // 
+            nombre_EntidadLabel.AutoSize = true;
+            nombre_EntidadLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            nombre_EntidadLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            nombre_EntidadLabel.Location = new System.Drawing.Point(55, 190);
+            nombre_EntidadLabel.Name = "nombre_EntidadLabel";
+            nombre_EntidadLabel.Size = new System.Drawing.Size(137, 17);
+            nombre_EntidadLabel.TabIndex = 76;
+            nombre_EntidadLabel.Text = "Información a firmar:";
+            // 
+            // entidadLabel
+            // 
+            entidadLabel.AutoSize = true;
+            entidadLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            entidadLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            entidadLabel.Location = new System.Drawing.Point(94, 263);
+            entidadLabel.Name = "entidadLabel";
+            entidadLabel.Size = new System.Drawing.Size(98, 17);
+            entidadLabel.TabIndex = 77;
+            entidadLabel.Text = "Llave Privada:";
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -123,39 +156,6 @@ namespace Compra
             this.verificar.UseVisualStyleBackColor = false;
             this.verificar.Click += new System.EventHandler(this.verificar_Click);
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            label1.Location = new System.Drawing.Point(9, 330);
-            label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(99, 17);
-            label1.TabIndex = 80;
-            label1.Text = "Datos firmdos:";
-            // 
-            // nombre_EntidadLabel
-            // 
-            nombre_EntidadLabel.AutoSize = true;
-            nombre_EntidadLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            nombre_EntidadLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            nombre_EntidadLabel.Location = new System.Drawing.Point(55, 190);
-            nombre_EntidadLabel.Name = "nombre_EntidadLabel";
-            nombre_EntidadLabel.Size = new System.Drawing.Size(137, 17);
-            nombre_EntidadLabel.TabIndex = 76;
-            nombre_EntidadLabel.Text = "Información a firmar:";
-            // 
-            // entidadLabel
-            // 
-            entidadLabel.AutoSize = true;
-            entidadLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            entidadLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            entidadLabel.Location = new System.Drawing.Point(94, 263);
-            entidadLabel.Name = "entidadLabel";
-            entidadLabel.Size = new System.Drawing.Size(98, 17);
-            entidadLabel.TabIndex = 77;
-            entidadLabel.Text = "Llave Privada:";
-            // 
             // llaveText
             // 
             this.llaveText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
@@ -212,7 +212,6 @@ namespace Compra
             this.Controls.Add(entidadLabel);
             this.Controls.Add(this.llaveText);
             this.Controls.Add(this.infoFirmaText);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "IniciarTransaccion";
             this.Text = "IniciarTransaccion";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

@@ -248,7 +248,6 @@ namespace Compra
             this.Controls.Add(this.entText);
             this.Controls.Add(this.infoText);
             this.Controls.Add(this.expText);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AprobarVendedor";
             this.Text = "AprobarVendedor";
             this.ResumeLayout(false);

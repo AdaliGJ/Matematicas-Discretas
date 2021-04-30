@@ -276,7 +276,6 @@ namespace Compra
             this.Controls.Add(this.privada);
             this.Controls.Add(this.identificador);
             this.Controls.Add(this.precio);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FinalizarTransaccion";
             this.Text = "FinalizarTransaccion";
             this.ResumeLayout(false);

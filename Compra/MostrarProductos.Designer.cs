@@ -49,32 +49,6 @@ namespace Compra
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // regresar
-            // 
-            this.regresar.BackColor = System.Drawing.Color.Red;
-            this.regresar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(26)))), ((int)(((byte)(100)))));
-            this.regresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.regresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.regresar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.regresar.Location = new System.Drawing.Point(35, 393);
-            this.regresar.Name = "regresar";
-            this.regresar.Size = new System.Drawing.Size(228, 30);
-            this.regresar.TabIndex = 61;
-            this.regresar.Text = "Regresar a Menú Comprador";
-            this.regresar.UseVisualStyleBackColor = false;
-            this.regresar.Click += new System.EventHandler(this.regresar_Click);
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(35, 51);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(717, 139);
-            this.dataGridView1.TabIndex = 60;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
             // nombre_EntidadLabel
             // 
             nombre_EntidadLabel.AutoSize = true;
@@ -85,30 +59,6 @@ namespace Compra
             nombre_EntidadLabel.Size = new System.Drawing.Size(539, 25);
             nombre_EntidadLabel.TabIndex = 59;
             nombre_EntidadLabel.Text = "Haga doble click sobre el producto en el que está interesado:";
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(26)))), ((int)(((byte)(100)))));
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(26)))), ((int)(((byte)(100)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(619, 393);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(133, 30);
-            this.button2.TabIndex = 62;
-            this.button2.Text = "Pedir Producto";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // descripcion
-            // 
-            this.descripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.descripcion.Location = new System.Drawing.Point(167, 262);
-            this.descripcion.Multiline = true;
-            this.descripcion.Name = "descripcion";
-            this.descripcion.Size = new System.Drawing.Size(585, 55);
-            this.descripcion.TabIndex = 68;
             // 
             // label1
             // 
@@ -143,6 +93,67 @@ namespace Compra
             entidadLabel.TabIndex = 64;
             entidadLabel.Text = "Precio:";
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label3.Location = new System.Drawing.Point(53, 342);
+            label3.Name = "label3";
+            label3.Size = new System.Drawing.Size(111, 17);
+            label3.TabIndex = 70;
+            label3.Text = "Tu llave pública:";
+            // 
+            // regresar
+            // 
+            this.regresar.BackColor = System.Drawing.Color.Red;
+            this.regresar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(26)))), ((int)(((byte)(100)))));
+            this.regresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.regresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.regresar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.regresar.Location = new System.Drawing.Point(35, 393);
+            this.regresar.Name = "regresar";
+            this.regresar.Size = new System.Drawing.Size(228, 30);
+            this.regresar.TabIndex = 61;
+            this.regresar.Text = "Regresar a Menú Comprador";
+            this.regresar.UseVisualStyleBackColor = false;
+            this.regresar.Click += new System.EventHandler(this.regresar_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(35, 51);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.ReadOnly = true;
+            this.dataGridView1.Size = new System.Drawing.Size(717, 139);
+            this.dataGridView1.TabIndex = 60;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(26)))), ((int)(((byte)(100)))));
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(26)))), ((int)(((byte)(100)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button2.Location = new System.Drawing.Point(619, 393);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(133, 30);
+            this.button2.TabIndex = 62;
+            this.button2.Text = "Pedir Producto";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // descripcion
+            // 
+            this.descripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.descripcion.Location = new System.Drawing.Point(167, 262);
+            this.descripcion.Multiline = true;
+            this.descripcion.Name = "descripcion";
+            this.descripcion.Size = new System.Drawing.Size(585, 55);
+            this.descripcion.TabIndex = 68;
+            // 
             // nombre
             // 
             this.nombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
@@ -170,17 +181,6 @@ namespace Compra
             this.comprador.Size = new System.Drawing.Size(585, 55);
             this.comprador.TabIndex = 69;
             // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            label3.Location = new System.Drawing.Point(53, 342);
-            label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(111, 17);
-            label3.TabIndex = 70;
-            label3.Text = "Tu llave pública:";
-            // 
             // MostrarProductos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -199,7 +199,6 @@ namespace Compra
             this.Controls.Add(this.regresar);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(nombre_EntidadLabel);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MostrarProductos";
             this.Text = "MostrarProductos";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

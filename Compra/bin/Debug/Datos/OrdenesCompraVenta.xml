@@ -1,4 +1,16 @@
 <?xml version="1.0"?>
 <ArrayOfCompraVenta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  
+  <CompraVenta>
+    <InformacionCert>Entidad: Ventas, S.A. NIT: 2345678</InformacionCert>
+    <ExpiraCert>viernes, 30 de abril de 2021</ExpiraCert>
+    <EntidadCert>Vendedor</EntidadCert>
+    <FirmaCert>BUZm6OnFKVQ+vD2mrnrsWbFD7RdODwmOrD2J7Wu2a4ORFBL1okJFEPoc0LvUcVlnHhrwJtjYawJvyrjXZHpFwrSPR75badOXNEyg8wSxk/g+xCTh9ynu8a/YOPc3I+7t3tU6YMSEs4QTSiUicrz3hyjc0OrVZ722ZFcGDz3honG2DnqLUxIP7cd6NCryu0aidTPi+nqW19rkCDjwkH4/Itg7osusk5qDlEwuUnyjPU8+vgS1VMnSOqmbS/PPI27QVeQ5k4EzVdiOM1QOOycefJEIYF91GTVKap+JLPHHD2nw4Xz7mdVmAgu8YG6C8QYYLEBcQoXoi7f8H+XKpEOCbQ==</FirmaCert>
+    <LlaveVendCert>&lt;RSAKeyValue&gt;&lt;Modulus&gt;xIKN2QfpKFXD69xD2KSlqJAmahfDP63bOp1Uo8yYYfCcR7OaC4HaJL1QmEHXu2rmnHNzNNc6+bxzgHoK0msf/eTO90k+nw3IX4HlGA+CTMEqJo8Dk6UwiZrE9QI0aQ2ZDfMP3AMSOhxW7GFL64+H/bQ1fTYC9iEwQ2P3BPzKgxBcGfLf8cUNk/XKpcwwAkQ38IP/TKk7GGUR2uGkhcXBQJITx3JRlkegJG+14/8LjENHLGBXHRrLNADB8TcY2B5jFCptH5vq5Cizvs0pUz0/Q+7eGEt5+Jf/o5C2a937+2wpRZ40mtACHxgGR0+cdl2dkR80ccBaSPCKoJxfvAH4bQ==&lt;/Modulus&gt;&lt;Exponent&gt;AQAB&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;</LlaveVendCert>
+    <ReguladorCert>&lt;RSAKeyValue&gt;&lt;Modulus&gt;0L38jBsdYLVc5v8IaVuEYUFTFU6eedLeWC6K1KEjQDqnFBn6ijn1etE6OL+njJx6Mg/cZVoVRx4fXJ48aHUOPdg/7vBG2AEEvSi8gdvBLBySEfBm/BoX/PrXD0T0jQ4Jv/Pu8bQlLoM+kx8nWBtJoXYtI+V++p+sbDv/Qpxf+qLFZZbs9Gj51bqRESeEKmj4UDD3wSNOg9fLuLr9U7K7g7zGqUMHyKV9jacfuwOY7imwwNqd424KT+/leWRobOs6JxRssFgOpdBk+5nQXXjG7AWAvsWkU4cMAkJwjpxD+vzCU717hkP/h/ODNKsKEg++m2oidh48Ud3rkwwkIjj+rQ==&lt;/Modulus&gt;&lt;Exponent&gt;AQAB&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;</ReguladorCert>
+    <identificadorTransaccion>b2a1612b-f3e0-498a-bf0c-7348c216819a</identificadorTransaccion>
+    <precio>Q20.00</precio>
+    <hashProducto>8476E78ACD761E0E2FE0E154141687A3</hashProducto>
+    <comprador>&lt;RSAKeyValue&gt;&lt;Modulus&gt;zTq4G9pje9wN0c3sSCBDPqnDCuingrWQwxGPMD8u5WUGs08aPrR66EhS6Ya7HA0OKtK0+tvDn4kCs6W51619b/qaRshl7cywvc69bCS/GidsNl1gt4WjJVD/qScDOwtX+nsdJZshUZhsMUbzYxfAdNuK+Ydgsy0JBfKxybkBfOf/mvLRlU0Pg0nDpo7vA0ek+BvSVgHHSokTjG9DXhmmJ/jqqG4mG/NWO89dpTOgZQ+3EapcyIwmODBvQftGPfobQlM/1jpFlhegVv14ZVngfqZPNieEjm0lDk+fu1Ns4v1foooGDRAKGbchoZI/wFyxwnRURWqPnPH/wYKPmHZEHQ==&lt;/Modulus&gt;&lt;Exponent&gt;AQAB&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;</comprador>
+    <firmaVendedor>g9IIr2KA51XeGEooXJxfb/BoN80LC74n4rKy0FyayL3OAs2AGLO24Thp3pRDRDilGjyOawFRGFaoSKaZ11N5LJlIoeogE5AxdA7Xe3cdDg6/rub1/GFF+IPwoPuRlzHqRc6D0QxMvywxXgd3q/gWBPWowciJbhD3gNJpOAdWx7gL5sSOAsDI4QkJm0Q11RQn2W94gdojtOgsqjRb8SfJFP5m9GNM9FX7ywB2NODz4WCVDaK8IO5GJHqYhZYnhOeXgfT/pNCoHF10mTLDs+LdAKV22IDfbSUCxyZwbPLJ9ytH35eYzuCpmCy3Gb6e0ItJPaRPuPHCW7YuZvWhIPBYog==</firmaVendedor>
+  </CompraVenta>
 </ArrayOfCompraVenta>

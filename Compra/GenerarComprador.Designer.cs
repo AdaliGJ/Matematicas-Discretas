@@ -166,7 +166,6 @@ namespace Compra
             this.Controls.Add(this.textBoxPrivada);
             this.Controls.Add(this.textBoxPublica);
             this.Controls.Add(this.button1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Generar_Comprador";
             this.Text = "Generar_Comprador";
             this.ResumeLayout(false);

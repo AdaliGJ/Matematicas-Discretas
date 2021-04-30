@@ -115,7 +115,6 @@ namespace Compra
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Validación_compra";
             this.Text = "Validación_compra";
             this.ResumeLayout(false);

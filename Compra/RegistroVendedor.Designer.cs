@@ -72,6 +72,39 @@ namespace Compra
             label3.TabIndex = 66;
             label3.Text = "Llave Privada:";
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label1.Location = new System.Drawing.Point(140, 91);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(34, 17);
+            label1.TabIndex = 58;
+            label1.Text = "NIT:";
+            // 
+            // nombre_EntidadLabel
+            // 
+            nombre_EntidadLabel.AutoSize = true;
+            nombre_EntidadLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            nombre_EntidadLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            nombre_EntidadLabel.Location = new System.Drawing.Point(78, 140);
+            nombre_EntidadLabel.Name = "nombre_EntidadLabel";
+            nombre_EntidadLabel.Size = new System.Drawing.Size(96, 17);
+            nombre_EntidadLabel.TabIndex = 54;
+            nombre_EntidadLabel.Text = "Llave Pública:";
+            // 
+            // entidadLabel
+            // 
+            entidadLabel.AutoSize = true;
+            entidadLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            entidadLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            entidadLabel.Location = new System.Drawing.Point(25, 62);
+            entidadLabel.Name = "entidadLabel";
+            entidadLabel.Size = new System.Drawing.Size(149, 17);
+            entidadLabel.TabIndex = 55;
+            entidadLabel.Text = "Nombre de la Entidad:";
+            // 
             // privText
             // 
             this.privText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
@@ -154,39 +187,6 @@ namespace Compra
             this.nitText.Size = new System.Drawing.Size(585, 23);
             this.nitText.TabIndex = 59;
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            label1.Location = new System.Drawing.Point(140, 91);
-            label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(34, 17);
-            label1.TabIndex = 58;
-            label1.Text = "NIT:";
-            // 
-            // nombre_EntidadLabel
-            // 
-            nombre_EntidadLabel.AutoSize = true;
-            nombre_EntidadLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            nombre_EntidadLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            nombre_EntidadLabel.Location = new System.Drawing.Point(78, 140);
-            nombre_EntidadLabel.Name = "nombre_EntidadLabel";
-            nombre_EntidadLabel.Size = new System.Drawing.Size(96, 17);
-            nombre_EntidadLabel.TabIndex = 54;
-            nombre_EntidadLabel.Text = "Llave Pública:";
-            // 
-            // entidadLabel
-            // 
-            entidadLabel.AutoSize = true;
-            entidadLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            entidadLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            entidadLabel.Location = new System.Drawing.Point(25, 62);
-            entidadLabel.Name = "entidadLabel";
-            entidadLabel.Size = new System.Drawing.Size(149, 17);
-            entidadLabel.TabIndex = 55;
-            entidadLabel.Text = "Nombre de la Entidad:";
-            // 
             // entText
             // 
             this.entText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
@@ -224,7 +224,6 @@ namespace Compra
             this.Controls.Add(entidadLabel);
             this.Controls.Add(this.entText);
             this.Controls.Add(this.llaveText);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "RegistroVendedor";
             this.Text = "RegistrarVendedor";
             this.ResumeLayout(false);
@@ -233,8 +232,6 @@ namespace Compra
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox privText;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button buttonRegresar;
         private System.Windows.Forms.Button buttonEnviar;
@@ -242,6 +239,7 @@ namespace Compra
         private System.Windows.Forms.TextBox firmText;
         private System.Windows.Forms.TextBox nitText;
         private System.Windows.Forms.TextBox entText;
-        private System.Windows.Forms.TextBox llaveText;
+        public System.Windows.Forms.TextBox privText;
+        public System.Windows.Forms.TextBox llaveText;
     }
 }

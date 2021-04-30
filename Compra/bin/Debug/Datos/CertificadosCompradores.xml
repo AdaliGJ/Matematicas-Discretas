@@ -1,4 +1,11 @@
 <?xml version="1.0"?>
 <ArrayOfCertificados xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  
+  <Certificados>
+    <Informacion>Entidad: Adalí NIT: 8434833</Informacion>
+    <Expira>viernes, 30 de abril de 2021</Expira>
+    <Entidad>Comprador</Entidad>
+    <Firma>ODCg/M/W2xB7F8MQtB2Fa+mb1qjQp8/VB2SikI2tmYW5bSevdNWsNw+Czp1Zbfr0AHBH3/KG2erMq2V5N+hsPTDbGDdjVrMY2IizdhMHURiB7vp1xLmpvT52q41O1n/f07rGT6LG4pPmVbOrTUhZaieLZoKtD6PC+ipDUyaOlAjr4O34ru4xWAt+At6Lxt2V284NJvo1q/GDF2BF3IZ4DnyNVZPIrOP3OQWYBEmfffI9+E3XlzyIvgTwpFBSJr5IcRxNI4dQ+mgNO5ZN6UxjHZ1935qywNNlatIeyj0k5/HGxNpFC3mBQmjxRsKxeMS3ntP2DuqErG3gWr25wQKtwg==</Firma>
+    <Llave>&lt;RSAKeyValue&gt;&lt;Modulus&gt;zTq4G9pje9wN0c3sSCBDPqnDCuingrWQwxGPMD8u5WUGs08aPrR66EhS6Ya7HA0OKtK0+tvDn4kCs6W51619b/qaRshl7cywvc69bCS/GidsNl1gt4WjJVD/qScDOwtX+nsdJZshUZhsMUbzYxfAdNuK+Ydgsy0JBfKxybkBfOf/mvLRlU0Pg0nDpo7vA0ek+BvSVgHHSokTjG9DXhmmJ/jqqG4mG/NWO89dpTOgZQ+3EapcyIwmODBvQftGPfobQlM/1jpFlhegVv14ZVngfqZPNieEjm0lDk+fu1Ns4v1foooGDRAKGbchoZI/wFyxwnRURWqPnPH/wYKPmHZEHQ==&lt;/Modulus&gt;&lt;Exponent&gt;AQAB&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;</Llave>
+    <Regulador>&lt;RSAKeyValue&gt;&lt;Modulus&gt;0L38jBsdYLVc5v8IaVuEYUFTFU6eedLeWC6K1KEjQDqnFBn6ijn1etE6OL+njJx6Mg/cZVoVRx4fXJ48aHUOPdg/7vBG2AEEvSi8gdvBLBySEfBm/BoX/PrXD0T0jQ4Jv/Pu8bQlLoM+kx8nWBtJoXYtI+V++p+sbDv/Qpxf+qLFZZbs9Gj51bqRESeEKmj4UDD3wSNOg9fLuLr9U7K7g7zGqUMHyKV9jacfuwOY7imwwNqd424KT+/leWRobOs6JxRssFgOpdBk+5nQXXjG7AWAvsWkU4cMAkJwjpxD+vzCU717hkP/h/ODNKsKEg++m2oidh48Ud3rkwwkIjj+rQ==&lt;/Modulus&gt;&lt;Exponent&gt;AQAB&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;</Regulador>
+  </Certificados>
 </ArrayOfCertificados>

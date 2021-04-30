@@ -1,4 +1,8 @@
 <?xml version="1.0"?>
 <ArrayOfRegistroClase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  
+  <RegistroClase>
+    <Informacion>Entidad: Adalí NIT: 8434833</Informacion>
+    <Llave>&lt;RSAKeyValue&gt;&lt;Modulus&gt;zTq4G9pje9wN0c3sSCBDPqnDCuingrWQwxGPMD8u5WUGs08aPrR66EhS6Ya7HA0OKtK0+tvDn4kCs6W51619b/qaRshl7cywvc69bCS/GidsNl1gt4WjJVD/qScDOwtX+nsdJZshUZhsMUbzYxfAdNuK+Ydgsy0JBfKxybkBfOf/mvLRlU0Pg0nDpo7vA0ek+BvSVgHHSokTjG9DXhmmJ/jqqG4mG/NWO89dpTOgZQ+3EapcyIwmODBvQftGPfobQlM/1jpFlhegVv14ZVngfqZPNieEjm0lDk+fu1Ns4v1foooGDRAKGbchoZI/wFyxwnRURWqPnPH/wYKPmHZEHQ==&lt;/Modulus&gt;&lt;Exponent&gt;AQAB&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;</Llave>
+    <Firma>hRWTue0ACJ6NlcxBqlc4RGbWYzeTXeGAf2cDPXaHmIXUbCp9kPdQL52H+wSjCGYZbRqeXrXYt5/ooyiB9E8rps6G7LzMuyJd4zor+xxhjeWqNG60hpNJW8Osv+eHO6QA2uAO110bpEKn+8YcssCJnucp7hENf72CTmLYCNk2aqP57Ush8LpSmxIatKFonXRQ8SIsqFsgFFOSGdplNTJLAFvVulqIXxkMZ14ALwkBu38Rnzfa4XFLJ3elKeM5GzamhLMUD3xZBOyW53I4SgxKOoNMXX9qgat0+O/xYS8ve11Vus67B7jmOWwEVhhfdZ7qzlUGLnRCjiq84gxHRfn+uw==</Firma>
+  </RegistroClase>
 </ArrayOfRegistroClase>

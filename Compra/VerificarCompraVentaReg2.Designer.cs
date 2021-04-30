@@ -209,7 +209,6 @@ namespace Compra
             this.Controls.Add(entidadLabel);
             this.Controls.Add(this.llaveText);
             this.Controls.Add(this.infoFirmaText);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "VerificarCompraVentaReg2";
             this.Text = "VerificarCompraVentaReg2";
             this.ResumeLayout(false);

@@ -144,7 +144,6 @@ namespace Compra
             this.Controls.Add(this.textBoxPrivada);
             this.Controls.Add(this.textBoxPublica);
             this.Controls.Add(this.button1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "GeneradorRegulador";
             this.Text = "GeneradorLlaves";
             this.ResumeLayout(false);

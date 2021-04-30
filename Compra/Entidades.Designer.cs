@@ -128,7 +128,6 @@ namespace Compra
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox2);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Entidades";
             this.Text = "EntidadCompra";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

@@ -169,7 +169,6 @@ namespace Compra
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "VerPedidos";
             this.Text = "VerPedidos";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

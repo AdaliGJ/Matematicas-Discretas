@@ -110,6 +110,17 @@ namespace Compra
             label3.TabIndex = 36;
             label3.Text = "Llave Privada Regulador:";
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label4.Location = new System.Drawing.Point(6, 262);
+            label4.Name = "label4";
+            label4.Size = new System.Drawing.Size(166, 17);
+            label4.TabIndex = 63;
+            label4.Text = "Llave Pública Regulador:";
+            // 
             // entText
             // 
             this.entText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
@@ -213,17 +224,6 @@ namespace Compra
             this.regresar.UseVisualStyleBackColor = false;
             this.regresar.Click += new System.EventHandler(this.regresar_Click);
             // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            label4.Location = new System.Drawing.Point(6, 262);
-            label4.Name = "label4";
-            label4.Size = new System.Drawing.Size(166, 17);
-            label4.TabIndex = 63;
-            label4.Text = "Llave Pública Regulador:";
-            // 
             // publica
             // 
             this.publica.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
@@ -255,7 +255,6 @@ namespace Compra
             this.Controls.Add(this.entText);
             this.Controls.Add(this.infoText);
             this.Controls.Add(this.expText);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AprobarComprador";
             this.Text = "Form1";
             this.ResumeLayout(false);

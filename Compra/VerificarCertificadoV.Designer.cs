@@ -330,7 +330,6 @@ namespace Compra
             this.Controls.Add(entidadLabel);
             this.Controls.Add(this.llaveText);
             this.Controls.Add(this.infoFirmaText);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "VerificarCertificadoV";
             this.Text = "VerificarCertificadoV";
             this.ResumeLayout(false);

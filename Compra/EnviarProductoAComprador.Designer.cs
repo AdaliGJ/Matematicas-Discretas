@@ -57,6 +57,94 @@ namespace Compra
             label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
+            // nombre_EntidadLabel
+            // 
+            nombre_EntidadLabel.AutoSize = true;
+            nombre_EntidadLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            nombre_EntidadLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            nombre_EntidadLabel.Location = new System.Drawing.Point(36, 97);
+            nombre_EntidadLabel.Name = "nombre_EntidadLabel";
+            nombre_EntidadLabel.Size = new System.Drawing.Size(159, 17);
+            nombre_EntidadLabel.TabIndex = 104;
+            nombre_EntidadLabel.Text = "Llave pública vendedor:";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label1.Location = new System.Drawing.Point(28, 39);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(167, 17);
+            label1.TabIndex = 105;
+            label1.Text = "Llave pública comprador:";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label2.Location = new System.Drawing.Point(28, 145);
+            label2.Name = "label2";
+            label2.Size = new System.Drawing.Size(166, 17);
+            label2.TabIndex = 106;
+            label2.Text = "Identificador transacción:";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label3.Location = new System.Drawing.Point(65, 180);
+            label3.Name = "label3";
+            label3.Size = new System.Drawing.Size(129, 17);
+            label3.TabIndex = 107;
+            label3.Text = "Hash del Producto:";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label4.Location = new System.Drawing.Point(92, 210);
+            label4.Name = "label4";
+            label4.Size = new System.Drawing.Size(102, 17);
+            label4.TabIndex = 108;
+            label4.Text = "Path Producto:";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            label5.ForeColor = System.Drawing.Color.Yellow;
+            label5.Location = new System.Drawing.Point(210, 270);
+            label5.Name = "label5";
+            label5.Size = new System.Drawing.Size(403, 17);
+            label5.TabIndex = 109;
+            label5.Text = "Por Seguridad se encriptará el path con la llave del comprador";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label6.Location = new System.Drawing.Point(19, 305);
+            label6.Name = "label6";
+            label6.Size = new System.Drawing.Size(197, 17);
+            label6.TabIndex = 110;
+            label6.Text = "Path Encriptado del Producto:";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label7.Location = new System.Drawing.Point(82, 240);
+            label7.Name = "label7";
+            label7.Size = new System.Drawing.Size(113, 17);
+            label7.TabIndex = 113;
+            label7.Text = "Precio Producto:";
+            // 
             // enviar
             // 
             this.enviar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(26)))), ((int)(((byte)(100)))));
@@ -135,83 +223,6 @@ namespace Compra
             this.encriptado.Size = new System.Drawing.Size(756, 77);
             this.encriptado.TabIndex = 103;
             // 
-            // nombre_EntidadLabel
-            // 
-            nombre_EntidadLabel.AutoSize = true;
-            nombre_EntidadLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            nombre_EntidadLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            nombre_EntidadLabel.Location = new System.Drawing.Point(36, 97);
-            nombre_EntidadLabel.Name = "nombre_EntidadLabel";
-            nombre_EntidadLabel.Size = new System.Drawing.Size(159, 17);
-            nombre_EntidadLabel.TabIndex = 104;
-            nombre_EntidadLabel.Text = "Llave pública vendedor:";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            label1.Location = new System.Drawing.Point(28, 39);
-            label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(167, 17);
-            label1.TabIndex = 105;
-            label1.Text = "Llave pública comprador:";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            label2.Location = new System.Drawing.Point(28, 145);
-            label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(166, 17);
-            label2.TabIndex = 106;
-            label2.Text = "Identificador transacción:";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            label3.Location = new System.Drawing.Point(65, 180);
-            label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(129, 17);
-            label3.TabIndex = 107;
-            label3.Text = "Hash del Producto:";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            label4.Location = new System.Drawing.Point(92, 210);
-            label4.Name = "label4";
-            label4.Size = new System.Drawing.Size(102, 17);
-            label4.TabIndex = 108;
-            label4.Text = "Path Producto:";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            label5.ForeColor = System.Drawing.Color.Yellow;
-            label5.Location = new System.Drawing.Point(210, 270);
-            label5.Name = "label5";
-            label5.Size = new System.Drawing.Size(403, 17);
-            label5.TabIndex = 109;
-            label5.Text = "Por Seguridad se encriptará el path con la llave del comprador";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            label6.Location = new System.Drawing.Point(19, 305);
-            label6.Name = "label6";
-            label6.Size = new System.Drawing.Size(197, 17);
-            label6.TabIndex = 110;
-            label6.Text = "Path Encriptado del Producto:";
-            // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Red;
@@ -226,17 +237,6 @@ namespace Compra
             this.button2.Text = "Regresar a Menú";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            label7.Location = new System.Drawing.Point(82, 240);
-            label7.Name = "label7";
-            label7.Size = new System.Drawing.Size(113, 17);
-            label7.TabIndex = 113;
-            label7.Text = "Precio Producto:";
             // 
             // precio
             // 
@@ -270,7 +270,6 @@ namespace Compra
             this.Controls.Add(this.comprador);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.enviar);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "EnviarProductoAComprador";
             this.Text = "EnviarProductoAComprador";
             this.ResumeLayout(false);

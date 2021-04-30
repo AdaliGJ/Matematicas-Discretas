@@ -33,8 +33,8 @@ namespace Compra
         {
             this.Hide();
             RegistroVendedor rv = new RegistroVendedor();
-            rv.llaveText.Text = "";
-            rv.privText.Text = "";
+            rv.llaveText.Text = textBoxPublica.Text;
+            rv.privText.Text = textBoxPrivada.Text;
             rv.ShowDialog();
             this.Close();
 
