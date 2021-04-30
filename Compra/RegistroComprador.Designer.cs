@@ -83,6 +83,28 @@ namespace Compra
             entidadLabel.TabIndex = 40;
             entidadLabel.Text = "Nombre de la Entidad:";
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label3.Location = new System.Drawing.Point(76, 203);
+            label3.Name = "label3";
+            label3.Size = new System.Drawing.Size(98, 17);
+            label3.TabIndex = 52;
+            label3.Text = "Llave Privada:";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label4.Location = new System.Drawing.Point(182, 264);
+            label4.Name = "label4";
+            label4.Size = new System.Drawing.Size(362, 13);
+            label4.TabIndex = 53;
+            label4.Text = "La llave privada no se guardará en el sistema. Se utilizará solo para la firma.";
+            // 
             // entText
             // 
             this.entText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
@@ -182,28 +204,6 @@ namespace Compra
             this.privText.Size = new System.Drawing.Size(585, 70);
             this.privText.TabIndex = 51;
             // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            label3.Location = new System.Drawing.Point(76, 203);
-            label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(98, 17);
-            label3.TabIndex = 52;
-            label3.Text = "Llave Privada:";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            label4.Location = new System.Drawing.Point(182, 264);
-            label4.Name = "label4";
-            label4.Size = new System.Drawing.Size(362, 13);
-            label4.TabIndex = 53;
-            label4.Text = "La llave privada no se guardará en el sistema. Se utilizará solo para la firma.";
-            // 
             // RegistroComprador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -235,13 +235,13 @@ namespace Compra
         #endregion
 
         private System.Windows.Forms.TextBox entText;
-        private System.Windows.Forms.TextBox llaveText;
         private System.Windows.Forms.TextBox nitText;
         private System.Windows.Forms.TextBox firmText;
         private System.Windows.Forms.Button buttonAceptar;
         private System.Windows.Forms.Button buttonEnviar;
         private System.Windows.Forms.Button buttonRegresar;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox privText;
+        public System.Windows.Forms.TextBox llaveText;
+        public System.Windows.Forms.TextBox privText;
     }
 }

@@ -44,6 +44,8 @@ namespace Compra
         {
             this.Hide();
             RegistroComprador rc = new RegistroComprador();
+            rc.llaveText.Text = "";
+            rc.privText.Text = "";
             rc.ShowDialog();
             this.Close();
 
