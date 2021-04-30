@@ -51,6 +51,9 @@ namespace Compra
             DataTable dt = GetDataTableFromDGV(dataGridView1);
             DataSet ds = new DataSet();
 
+            llaveText.Text = "";
+            saldoText.Text = "";
+
             ds.Tables.Add(dt);
             ds.WriteXml(File.OpenWrite(path));
         }

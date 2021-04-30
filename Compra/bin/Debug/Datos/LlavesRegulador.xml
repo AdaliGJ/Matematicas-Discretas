@@ -1,6 +1,3 @@
 <?xml version="1.0"?>
 <ArrayOfReguladorLlaves xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <reguladorLlaves>
-    <Llave>&lt;RSAKeyValue&gt;&lt;Modulus&gt;0L38jBsdYLVc5v8IaVuEYUFTFU6eedLeWC6K1KEjQDqnFBn6ijn1etE6OL+njJx6Mg/cZVoVRx4fXJ48aHUOPdg/7vBG2AEEvSi8gdvBLBySEfBm/BoX/PrXD0T0jQ4Jv/Pu8bQlLoM+kx8nWBtJoXYtI+V++p+sbDv/Qpxf+qLFZZbs9Gj51bqRESeEKmj4UDD3wSNOg9fLuLr9U7K7g7zGqUMHyKV9jacfuwOY7imwwNqd424KT+/leWRobOs6JxRssFgOpdBk+5nQXXjG7AWAvsWkU4cMAkJwjpxD+vzCU717hkP/h/ODNKsKEg++m2oidh48Ud3rkwwkIjj+rQ==&lt;/Modulus&gt;&lt;Exponent&gt;AQAB&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;</Llave>
-  </reguladorLlaves>
 </ArrayOfReguladorLlaves>

@@ -127,6 +127,11 @@ namespace Compra
             comprador.Text = "";
             firmado.Text = "";
             llavePriv.Text = "";
+            entidad.Text = "";
+            exp.Text = "";
+            firmacert.Text = "";
+            llavevend.Text = "";
+            llavereg.Text = "";
             
 
             ls2.Add(cv);

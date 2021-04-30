@@ -138,6 +138,17 @@ namespace Compra
             label7.TabIndex = 100;
             label7.Text = "Datos Firmados:";
             // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            label8.Location = new System.Drawing.Point(12, 263);
+            label8.Name = "label8";
+            label8.Size = new System.Drawing.Size(174, 20);
+            label8.TabIndex = 102;
+            label8.Text = "Aprobación Certificado:";
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -245,6 +256,7 @@ namespace Compra
             this.exp.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.exp.Location = new System.Drawing.Point(303, 287);
             this.exp.Name = "exp";
+            this.exp.ReadOnly = true;
             this.exp.Size = new System.Drawing.Size(209, 23);
             this.exp.TabIndex = 93;
             this.exp.TextChanged += new System.EventHandler(this.exp_TextChanged);
@@ -289,17 +301,6 @@ namespace Compra
             this.button1.Text = "Enviar Certificado Aprobado";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            label8.Location = new System.Drawing.Point(12, 263);
-            label8.Name = "label8";
-            label8.Size = new System.Drawing.Size(174, 20);
-            label8.TabIndex = 102;
-            label8.Text = "Aprobación Certificado:";
             // 
             // VerificarCertificadoV
             // 

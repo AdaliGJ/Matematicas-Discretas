@@ -1,8 +1,4 @@
 <?xml version="1.0"?>
 <ArrayOfRegistroClase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <RegistroClase>
-    <Informacion>Entidad: Jaime NIT: 1234567</Informacion>
-    <Llave>&lt;RSAKeyValue&gt;&lt;Modulus&gt;zTq4G9pje9wN0c3sSCBDPqnDCuingrWQwxGPMD8u5WUGs08aPrR66EhS6Ya7HA0OKtK0+tvDn4kCs6W51619b/qaRshl7cywvc69bCS/GidsNl1gt4WjJVD/qScDOwtX+nsdJZshUZhsMUbzYxfAdNuK+Ydgsy0JBfKxybkBfOf/mvLRlU0Pg0nDpo7vA0ek+BvSVgHHSokTjG9DXhmmJ/jqqG4mG/NWO89dpTOgZQ+3EapcyIwmODBvQftGPfobQlM/1jpFlhegVv14ZVngfqZPNieEjm0lDk+fu1Ns4v1foooGDRAKGbchoZI/wFyxwnRURWqPnPH/wYKPmHZEHQ==&lt;/Modulus&gt;&lt;Exponent&gt;AQAB&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;</Llave>
-    <Firma>uRzdmHPM6wNoMOsRmP46X49GVNEgPGkrlahPN3LEZxwQJr7nwUthn/TNEXgKL7Sv9blXiDTbT0b/4YyEiMP7+172FKW71mzXhKqUbUpSYkUH9ItIHy09QesypOPxnI48SQEy9XqY+AVbAdu53CplYEky+u4EVxQvrDKljx08Wb71KEeUMdV99nJ8GKz1NlzijD1gdksia+x7hB5MiEvPOH+mS2bHMYadPUOklic3nBcV1kxNKGo+T3Y1na672FB5IB7RpMqXNyz8mZlmM1VIoj248bFsPPmHkM/zlUSB9glAA48UwAc/W0snK+pdZwgdILozZ6YusIO2Q7wK9OVpdg==</Firma>
-  </RegistroClase>
+  
 </ArrayOfRegistroClase>
